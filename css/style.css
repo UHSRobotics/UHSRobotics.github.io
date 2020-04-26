@@ -10,9 +10,6 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 ------------------------------------- */
 
-
-
-
 .wolf-logo{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -39,7 +36,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 @media only screen and (max-width: 950px) {
     .teambuttonsmallerscreen {
     padding-top: 5%;
-    padding-left: 25%;
+    padding-left: 27%;
     padding-right: 25%;
     }
     
@@ -3227,6 +3224,15 @@ blockquote p{
 
 /* Image Backgrounds
 -------------------------*/
+
+.team-image{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
 
 .image-bg{
 
