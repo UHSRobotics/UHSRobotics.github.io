@@ -3226,11 +3226,12 @@ blockquote p{
 -------------------------*/
 
 .team-image{
+    background-image: url(../images/group.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
+    height: 1000px;
 }
 
 
