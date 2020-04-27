@@ -25,6 +25,8 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 		03. Scroll to top
 
+		04. Remove of "preload" class
+
 */
 
 
@@ -128,4 +130,14 @@ jQuery(document).ready(function($) {
 	});
 
 	
+});
+
+/*======================
+
+	04. Removing preload
+
+========================*/	
+
+$(document).ready(function () {
+	$("body").removeClass("preload");
 });
