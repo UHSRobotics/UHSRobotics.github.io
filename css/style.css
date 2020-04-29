@@ -10,6 +10,14 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 ------------------------------------- */
 
+/* Targets the div outside of the sponsorship images */
+.sponsors>section>.container>div>.row>div>div{
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .wolf-logo{
     padding-top: 150px;
     padding-bottom: 150px;
