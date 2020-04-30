@@ -26,6 +26,12 @@
     /* pointer-events:none allows for the mouse inputs to be passed to the particle stuffs behind the images */
 }
 
+.sponsors>section>.container>div>.row>div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
     height: 100%;
@@ -263,11 +269,11 @@
 
 *{
 
-    transition-duration: .4s;
-    -ms-transition-duration: .4s;
-    -moz-transition-duration: .4s;
-    -webkit-transition-duration: .4s;
-    -o-transition-duration: .4s;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
     transition-timing-function: ease-in-out;
     -ms-transition-timing-function: ease-in-out;
     -moz-transition-timing-function: ease-in-out;
@@ -284,11 +290,11 @@
     -moz-transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
     -o-transition-timing-function: ease-in-out;
-    transition-duration: .4s;
-    -ms-transition-duration: .4s;
-    -moz-transition-duration: .4s;
-    -webkit-transition-duration: .4s;
-    -o-transition-duration: .4s;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
 
 }
 
