@@ -1041,7 +1041,7 @@ hr.ridge{
 
 .uk-logo img{
 	
-	max-width: 200px;
+	max-width: 150px;
 
 }
 
@@ -3234,7 +3234,7 @@ blockquote p{
 -------------------------*/
 
 .team-image{
-    background-image: url('/images/group.jpg');
+    background-image: url('/images/team.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
