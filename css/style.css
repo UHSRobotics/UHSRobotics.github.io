@@ -17,12 +17,11 @@
 }
 
 .teambuttonlargerscreen {
-  padding-top: 50px;
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 @media only screen and (max-width: 1000px) {
     .teambuttonsmallerscreen {
     padding-top: 5%;
@@ -1032,7 +1031,7 @@ hr.ridge{
 
 .uk-logo img{
 	
-	max-width: 200px;
+	max-width: 150px;
 
 }
 
@@ -3225,7 +3224,7 @@ blockquote p{
 -------------------------*/
 
 .team-image{
-    background-image: url('/images/group.jpg');
+    background-image: url('/images/team.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -3233,6 +3232,35 @@ blockquote p{
     height: 60vh;
 }
 
+.diamondsponsorsbg{
+    background-image: url('/images/diamond.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.platniumsponsorsbg{
+    background-image: url('/images/platinum.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.goldsponsorsbg{
+    background-image: url('/images/gold.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
 
 .image-bg{
     width: 100%;
