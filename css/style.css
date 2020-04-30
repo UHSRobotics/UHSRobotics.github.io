@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+/* Sponsor section
+-------------------------*/
+
 .particles-js-canvas-el{
     position: absolute;
     top: 0%;
@@ -30,6 +33,14 @@
     justify-content:center;
     align-items:center;
 }
+
+/* centers sponsors */
+.sponsors>section>.container>div>.row{
+    justify-content:center;
+}
+
+/* Other things
+-------------------------*/
 
 .wolf-logo{
     padding-top: 150px;
