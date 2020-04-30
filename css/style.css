@@ -2,6 +2,18 @@
 
 .particles-js-canvas-el{
     position: absolute;
+    top: 0%;
+    left: 0px;
+    z-index: 1;
+}
+
+.sponsors{
+    position: relative;
+}
+
+.sponsors>section{
+    position: relative;
+    z-index: 100;
 }
 
 /* Targets the div outside of the sponsorship images */
@@ -10,7 +22,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    z-index: 100;
 }
 
 .wolf-logo{
