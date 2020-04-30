@@ -1,11 +1,16 @@
 @charset "utf-8";
 
+.particles-js-canvas-el{
+    position: absolute;
+}
+
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
     height: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
+    z-index: 100;
 }
 
 .wolf-logo{
