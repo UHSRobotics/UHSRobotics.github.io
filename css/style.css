@@ -1,15 +1,5 @@
 @charset "utf-8";
 
-
-/* ----------------------------------
-
-Name: style.css
-Author: Fourtabs
-Website: https://www.fourtabs.com
-Exclusively available here: https://themeforest.net/user/fourtabsthemes
-
-------------------------------------- */
-
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
     height: 100%;
