@@ -1,24 +1,16 @@
 /*====================================================
-
-
 	Table of Contents
 	
-	
-
 		01. Pie Charts
 
 			+ Pie Chart Style 01
 			+ Pie Chart Style 02
 			+ Pie Chart Style 03
-
 		02. Counter
-
 		03. Scroll to top
-
 		04. Remove of "preload" class
-
+		05. Particles
 */
-
 
 
 jQuery(document).ready(function($) {
@@ -130,4 +122,17 @@ jQuery(document).ready(function($) {
 
 $(document).ready(function () {
 	$("body").removeClass("preload");
+});
+
+
+/*======================
+
+	05. Particles
+
+========================*/	
+
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
 });
