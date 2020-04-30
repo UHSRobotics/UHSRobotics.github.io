@@ -1,14 +1,20 @@
 @charset "utf-8";
 
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    z-index: 1;
+}
 
-/* ----------------------------------
+.sponsors{
+    position: relative;
+}
 
-Name: style.css
-Author: Fourtabs
-Website: https://www.fourtabs.com
-Exclusively available here: https://themeforest.net/user/fourtabsthemes
-
-------------------------------------- */
+.sponsors>section{
+    position: relative;
+    z-index: 100;
+}
 
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
