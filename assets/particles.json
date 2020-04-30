@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#ff0000"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -67,7 +67,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,

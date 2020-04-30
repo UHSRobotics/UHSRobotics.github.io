@@ -11,9 +11,15 @@
     position: relative;
 }
 
+.sponsors .container{
+    padding-top: 0;
+}
+
 .sponsors>section{
     position: relative;
     z-index: 100;
+    pointer-events: none;
+
 }
 
 /* Targets the div outside of the sponsorship images */
