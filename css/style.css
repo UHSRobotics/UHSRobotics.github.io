@@ -12,14 +12,15 @@
 }
 
 .sponsors .container{
-    padding-top: 0;
+    padding-top: 25px;
+    padding-bottom: 75px;
 }
 
 .sponsors>section{
     position: relative;
     z-index: 100;
-    pointer-events: none;
-
+    pointer-events: none; 
+    /* pointer-events:none allows for the mouse inputs to be passed to the particle stuffs behind the images */
 }
 
 /* Targets the div outside of the sponsorship images */
