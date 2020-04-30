@@ -3242,7 +3242,35 @@ blockquote p{
     height: 60vh;
 }
 
+.diamondsponsorsbg{
+    background-image: url('/images/diamond.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 
+}
+
+.platniumsponsorsbg{
+    background-image: url('/images/platinum.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.goldsponsorsbg{
+    background-image: url('/images/gold.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
 
 .image-bg{
     width: 100%;
