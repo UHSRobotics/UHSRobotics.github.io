@@ -67,7 +67,7 @@
 
 <!-- Main Body -->
 
-<body class="preload" data-spy="scroll" data-target="#nav-placeholder" data-offset="500">
+<body class="preload" data-spy="scroll" data-target="#nav-placeholder" data-offset="300">
 
 	<!-- Return to top button -->
 	<a href="javascript:" id="return-to-top"><span data-uk-icon="icon: arrow-up; ratio: 1"
@@ -75,23 +75,26 @@
 
 
 	<!--Navigation bar-->
-	<nav id="nav-placeholder" class="navbar navbar-expand-sm navbar-dark fixed-top">
+	<!-- The contents of the navbar are in nav.html -->
+	<nav id="nav-placeholder" class="navbar navbar-expand-md navbar-dark fixed-top">
 	</nav>
-
-
-
 
 
 	<!-- Landing -->
 	<div id="top">
-		<div class="landing-background">
+		<div class="landing">
 			<video autoplay muted loop id="landing-video">
 				<source src="assets/LandingVideo.mp4" type="video/mp4"/>
 			</video>
-			<div class="title-holder-holder">
-				<div class="title-holder">
-					<h1>Unionville High</br>School Robotics</h1>
-					<img src="images/wolf_logo_flat.png"/>
+			<div class="landing-content-holder container-fluid">
+				<div class="landing-content row">
+					<div class="title-holder">
+						<h1>U<span class="minor">nionville</span> H<span class="minor">igh</span> S<span class="minor">chool</span></br></h1>
+						<h1>Robotics</h1>
+						<a class="btn btn-large btn-white border-radius-50" href="#about" uk-scroll offset="50">About
+							Us</a>
+					</div>
+					<img class="" src="images/wolf_logo_flat.png"/>
 				</div>
 			</div>
 		</div>
