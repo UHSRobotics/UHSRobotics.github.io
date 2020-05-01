@@ -27,6 +27,10 @@
     transition: 0s !important;
 }
 
+.navbar-brand{
+    margin-right: 0;
+}
+
 /* Sponsor section
 -------------------------*/
 
@@ -4010,7 +4014,6 @@ blockquote p{
 	right: 96px;
 	background: rgba(109, 109, 109, 0.85);
 	z-index: 999;
-	background: rgba(197, 197, 197, 0.61);
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -4031,19 +4034,9 @@ blockquote p{
 }
 #return-to-top:hover{
 
-	background: rgba(0, 0, 0, 0.9);
-	color: #fff !important;
-
+	background: rgba(202, 202, 202, 0.918);
 
 }
-
-
-#return-to-top:hover span{
-
-	color: #fff !important;
-
-}
-
 
 
 /*======================
