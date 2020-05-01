@@ -16,6 +16,7 @@
 }
 
 .landing{
+    color: #fff;
     background: rgb(2,0,36, 0.4);
     background: linear-gradient(rgba(25, 53, 59, 0.6) 0%, rgba(0,0,0,0.6) 30%,rgba(11, 10, 31, 0.7) 65%,rgba(0,0,0,1) 100%);
     width: 100%;
@@ -26,6 +27,7 @@
 
 .landing-content {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -34,7 +36,9 @@
 }
 
 .landing-content img{
-    height: 50vh;
+    max-height: 50vh;
+    max-width: 40vw;
+    margin-bottom: 100px;
 }
 
 .landing-content-holder{
@@ -47,7 +51,6 @@
 
 .landing h1{
     font-family: 'Raleway', sans-serif;
-    color: #fff;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -61,6 +64,45 @@
     font-family: 'Raleway', sans-serif;
     margin-top: 40px;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .landing h1{
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .landing-content{
+        flex-direction: column-reverse;
+    }
+
+    .landing-content {
+        text-align: center;
+    }
+    
+    .landing{
+        background: linear-gradient(rgba(25, 53, 59, 0.75) 0%, rgba(0,0,0,0.75) 30%,rgba(11, 10, 31, 0.8) 65%,rgba(0,0,0,1) 100%);
+    }
+    
+    .landing h1{
+        font-size: 40px;
+    }
+
+    .landing .btn-large{
+        padding: 10px 35px 10px 35px;
+    }
+
+    .landing-content img{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-content img{
+        max-width: 60vw;
+    }
 }
 
 /* Navbar
@@ -496,7 +538,6 @@ img{
 
     max-width: 100%;
     height: auto;
-	overflow: hidden;
 
 }
 
