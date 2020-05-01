@@ -152,7 +152,7 @@
 
 .regular-team-image {
     width: 95%;
-    height: 95%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
