@@ -38,6 +38,7 @@
 .landing-content img{
     max-height: 50vh;
     max-width: 40vw;
+    margin-right: 15px;
     margin-bottom: 100px;
     box-shadow: black;
 }
