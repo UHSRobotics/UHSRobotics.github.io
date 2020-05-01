@@ -4,6 +4,10 @@
     height: 150px;
 }
 
+.navbar{
+    transition: 0.3s;
+}
+
 .nav-item{
     color: #c0bfbf;
     text-transform: uppercase;
@@ -24,7 +28,7 @@
 }
 
 .nav-link{
-    transition: 0.1s ease-in-out !important;
+    transition: 0.07s ease-in-out !important;
 }
 
 .navbar-brand{
