@@ -114,14 +114,50 @@ jQuery(document).ready(function($) {
 	
 });
 
-/*======================
 
-	04. Removing preload
+var lastNavState;
 
-========================*/	
+function navAddBackground() {
+	if(lastNavState==false){
+		$("nav").addClass("bg-dark");
+	}
+	lastNavState = true;
+}
+
+function navRemoveBackground() {
+	if(lastNavState==true){
+		$("nav").removeClass("bg-dark");
+	}
+	lastNavState = false;
+}
+
+
 
 $(document).ready(function () {
+
+	// 04. Removing preload
+
 	$("body").removeClass("preload");
+
+	// 04.5. Transparent Nav bar
+
+	if ($(window).scrollTop() > 50)
+    {
+			$("nav").addClass("bg-dark");
+		}
+  else
+    {
+			$("nav").removeClass("bg-dark");
+		}
+
+	$(window).scroll(function () {
+		
+    if ($(window).scrollTop() > 50 || !$(".navbar-toggler").hasClass("collapsed"))
+      navAddBackground();
+    else
+      navRemoveBackground();
+	});
+	
 });
 
 
@@ -144,3 +180,13 @@ particlesJS.load('platinum-particles', 'assets/platinum-tier.json', function() {
 particlesJS.load('gold-particles', 'assets/gold-tier.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+
+
+/*======================
+
+	06. Loading nav bar
+
+========================*/	
+
+$("#nav-placeholder").load("./nav.html");

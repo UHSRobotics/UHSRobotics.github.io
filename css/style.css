@@ -4,6 +4,29 @@
     height: 150px;
 }
 
+.nav-item{
+    color: #c0bfbf;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#navbarToggler{
+    flex-direction: row-reverse;
+}
+
+.navbar-brand>img{
+    margin-top: -15%;
+    margin-bottom: -15%;
+}
+
+.nav-item{
+    margin-right: 5px;
+}
+
+.nav-link{
+    transition: 0s !important;
+}
+
 /* Sponsor section
 -------------------------*/
 
