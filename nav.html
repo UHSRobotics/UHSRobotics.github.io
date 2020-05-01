@@ -1,10 +1,11 @@
 <script>
     $(".navbar-nav").children().each(function () {
         if (window.location.pathname.indexOf($(this).children().attr("href").split("#")[0]) >= 0) {
-            $(this).addClass("active");
+            $(this).children().attr("href", "#"+$(this).children().attr("href").split("#")[1]);
+            // $(this).addClass("active");
             console.log($(this.children[0]).attr("data-uk-scroll",true))
         } else if ($(this).children().attr("href").indexOf("index.html")>=0  && window.location.pathname == "/") {
-            $(this).addClass("active");
+            // $(this).addClass("active");
         }
     });
     console.log(window.location.pathname)
@@ -18,13 +19,13 @@
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler">
     <span class="navbar-toggler-icon"></span>
 </button>
-<a class="navbar-brand" href="index.html#">
+<a class="navbar-brand" href="index.html#top">
     <img src="/images/logo.svg" width="250" height="70"
         class="d-inline-block align-top" alt="" /></a>
 <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="index.html#">Home</a>
+            <a class="nav-link" href="index.html#top">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="index.html#about">About</a>
@@ -39,7 +40,7 @@
             <a class="nav-link" href="index.html#contact">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery.html#top">Gallery</a>
         </li>
     </ul>
 </div>
