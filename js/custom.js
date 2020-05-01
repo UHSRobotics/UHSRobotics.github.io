@@ -143,14 +143,14 @@ $(document).ready(function () {
 
 	// 04.5. Transparent Nav bar
 
-	if ($(window).scrollTop() > 50)
+	if ($(window).scrollTop() > 200)
 		navAddBackground();
 	else
 		navRemoveBackground();
 
 	$(window).scroll(function () {
 		
-    if ($(window).scrollTop() > 50 || !$(".navbar-toggler").hasClass("collapsed"))
+    if ($(window).scrollTop() > 200 || !$(".navbar-toggler").hasClass("collapsed"))
       navAddBackground();
     else
       navRemoveBackground();
