@@ -1,14 +1,15 @@
 <script>
+    var pathname = window.location.pathname;
     $(".navbar-nav").children().each(function () {
-        if (window.location.pathname.indexOf($(this).children().attr("href").split("#")[0]) >= 0) {
-            $(this).children().attr("href", "#"+$(this).children().attr("href").split("#")[1]);
-            // $(this).addClass("active");
+        var navLink = $(this).children().attr("href");
+        if ((pathname.indexOf(navLink.split("#")[0]) >= 0) || (navLink.indexOf("index.html")>=0  && pathname == "/")) {
+            $(this).children().attr("href", "#"+navLink.split("#")[1]);
             console.log($(this.children[0]).attr("data-uk-scroll",true))
-        } else if ($(this).children().attr("href").indexOf("index.html")>=0  && window.location.pathname == "/") {
-            // $(this).addClass("active");
         }
     });
-    console.log(window.location.pathname)
+    $(".navbar-toggler").addClass("collapsed");
+
+    // console.log(window.location.pathname)
     $(".navbar-toggler").click(function () {
         if ($(window).scrollTop() > 50 || $(".navbar-toggler").hasClass("collapsed"))
             navAddBackground();
@@ -16,7 +17,7 @@
             navRemoveBackground();
     });
 </script>
-<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
     <span class="navbar-toggler-icon"></span>
 </button>
 <a class="navbar-brand" href="index.html#top">

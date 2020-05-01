@@ -116,19 +116,21 @@ jQuery(document).ready(function($) {
 
 
 var lastNavState;
-
+var firstTime = true;
 function navAddBackground() {
-	if(lastNavState==false){
+	if(lastNavState==false || firstTime){
 		$("nav").addClass("bg-dark");
 	}
 	lastNavState = true;
+	firstTime = false;
 }
 
 function navRemoveBackground() {
-	if(lastNavState==true){
+	if(lastNavState==true || firstTime){
 		$("nav").removeClass("bg-dark");
 	}
 	lastNavState = false;
+	firstTime = false;
 }
 
 
@@ -142,13 +144,9 @@ $(document).ready(function () {
 	// 04.5. Transparent Nav bar
 
 	if ($(window).scrollTop() > 50)
-    {
-			$("nav").addClass("bg-dark");
-		}
-  else
-    {
-			$("nav").removeClass("bg-dark");
-		}
+		navAddBackground();
+	else
+		navRemoveBackground();
 
 	$(window).scroll(function () {
 		
