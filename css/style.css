@@ -155,6 +155,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 
 }
 
