@@ -24,7 +24,7 @@
 }
 
 .nav-link{
-    transition: 0s !important;
+    transition: 0.1s ease-in-out !important;
 }
 
 .navbar-brand{
