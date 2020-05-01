@@ -92,6 +92,28 @@
     color: rgb(123, 255, 248)
 }
 
+/* Team Section */
+
+.regular-team-image {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* parallex effect on team image */
+.team-image{
+    background-image: url('/images/team.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+
 /* Sponsor section
 -------------------------*/
 
@@ -3354,15 +3376,6 @@ blockquote p{
 
 /* Image Backgrounds
 -------------------------*/
-
-.team-image{
-    background-image: url('/images/team.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-}
 
 .diamondsponsorsbg{
     background-image: url('/images/diamond.png');
