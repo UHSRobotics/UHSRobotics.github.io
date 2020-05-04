@@ -273,7 +273,8 @@
     align-content: center;
 }
 .group-pic{
-    padding-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .center-block{
