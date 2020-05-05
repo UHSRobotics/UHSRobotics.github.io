@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+.flexbox-aligncenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content{
     background-color: #000;
     position: relative;
