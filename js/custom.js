@@ -152,3 +152,4 @@ particlesJS.load('gold-particles', 'assets/gold-tier.json', function() {
 ========================*/	
 
 $("#nav-placeholder").load("./nav.html");
+$("#contact").load("./footer.html")
