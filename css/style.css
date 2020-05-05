@@ -1,4 +1,19 @@
 @charset "utf-8";
+.uk-slider img{
+    width:100%;
+}
+
+.uk-slider .uk-panel{
+    height: 65vh;
+}
+
+#events-slides .carousel-caption{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.slideshow-container{
+    /* height: 60vh; */
+}
 
 .flexbox-aligncenter{
     display: flex;
@@ -463,7 +478,7 @@
 
 
 
-*{
+*:not(.uk-slider, .uk-slider *){
 
     transition-duration: .2s;
     -ms-transition-duration: .2s;
