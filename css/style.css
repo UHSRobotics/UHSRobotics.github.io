@@ -169,7 +169,25 @@
     height: 60vh;
 }
 
+/* FIRST Section */
 
+.firstlogo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+
+}
+
+.firsttext {
+    line-height: 25px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
 
 /* Sponsor section
 -------------------------*/
