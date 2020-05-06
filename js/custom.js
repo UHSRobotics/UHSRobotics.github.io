@@ -131,17 +131,17 @@ $(document).ready(function () {
 
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-// particlesJS.load('diamond-particles', 'assets/diamond-tier.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
+particlesJS.load('diamond-particles', 'assets/diamond-tier.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
-// particlesJS.load('platinum-particles', 'assets/platinum-tier.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
+particlesJS.load('platinum-particles', 'assets/platinum-tier.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
-// particlesJS.load('gold-particles', 'assets/gold-tier.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
+particlesJS.load('gold-particles', 'assets/gold-tier.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
 
 
