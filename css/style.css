@@ -11,6 +11,10 @@
     }
 }
 
+body{
+    background-color: #00000000;
+}
+
 .carousel-control-next, .carousel-control-prev{
     transition: .15s;
 }

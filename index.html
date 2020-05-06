@@ -37,21 +37,21 @@
 	<link rel="stylesheet" href="css/preload.css" />
 
 	<!-- Uikit Framework -->
-	<link rel="stylesheet" href="css/uikit.min.css" async/>
+	<link rel="stylesheet" href="css/uikit.min.css" media="print" onload="this.media='all'"/>
 
 	<!-- Bootstrap Framework -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" async/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="print" onload="this.media='all'"/>
 
 	<!-- Font Awesome -->
 	<link href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
 		integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"
-		rel="stylesheet" async>
+		rel="stylesheet" media="print" onload="this.media='all'">
 
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css"/>
 
 	<!-- Responsive -->
-	<link rel="stylesheet" href="css/responsive.css" async>
+	<link rel="stylesheet" href="css/responsive.css" media="print" onload="this.media='all'">
 
 
 
@@ -85,8 +85,8 @@
 	<!-- Landing -->
 	<div id="top">
 		<div class="landing">
-			<video autoplay muted loop id="landing-video">
-				<source src="assets/LandingVideo.mp4" type="video/mp4"/>
+			<video autoplay muted loop id="landing-video" class="lozad">
+				<source data-src="assets/LandingVideo.mp4" type="video/mp4"/>
 			</video>
 			<div class="landing-content-holder container-fluid">
 				<div class="landing-content row">
@@ -292,7 +292,7 @@
 					<!-- <div class="col-md-12 col-sm-12 col-xs-12 sm-margin-bottom-10px team-image"> -->
 
 					<!-- Regular team image-->
-					<img class="regular-team-image" src="images/group/group-2020.jpg">
+					<img class="regular-team-image lozad" data-src="images/group/group-2020.jpg">
 
 				</div>
 			</div>

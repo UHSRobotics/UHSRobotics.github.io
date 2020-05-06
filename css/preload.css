@@ -5,3 +5,7 @@
   -o-transition: none !important;
   transition: none !important;
 }
+
+body{
+  background-color: #000;
+}
