@@ -153,3 +153,6 @@ $(document).ready(function () {
 
 $("#nav-placeholder").load("./nav.html");
 $("#contact").load("./footer.html")
+
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
