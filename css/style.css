@@ -1,4 +1,11 @@
 @charset "utf-8";
+
+body{
+    background-color: #00000000;
+}
+
+/* --- Slideshow & Slider --- */
+
 @media all and (min-width: 992px) {
     #events-slider{
         display:none!important;
@@ -9,10 +16,6 @@
     #events-slides{
         display:none!important;
     }
-}
-
-body{
-    background-color: #00000000;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -40,20 +43,18 @@ body{
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
 }
 
-.slideshow-container{
-    /* height: 60vh; */
-}
-
 .flexbox-aligncenter{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* --- Landing --- */
+
 .content{
     background-color: #000;
     position: relative;
-}
+} 
 
 #landing-video{
     min-height: 100%;
@@ -154,8 +155,7 @@ body{
     }
 }
 
-/* Navbar
--------------------------*/
+/* --- Navbar --- */
 
 .logo{
     height: 150px;
@@ -239,8 +239,7 @@ body{
 
 }
 
-/* Sponsor section
--------------------------*/
+/* --- Sponsor Section --- */
 
 .particles-js-canvas-el{
     position: absolute;
