@@ -1,4 +1,16 @@
 @charset "utf-8";
+@media all and (min-width: 575px) {
+    #events-slider{
+        display:none!important;
+    }
+}
+
+@media all and (max-width: 575px) {
+    #events-slides{
+        display:none!important;
+    }
+}
+
 .uk-slider img{
     width:100%;
 }
