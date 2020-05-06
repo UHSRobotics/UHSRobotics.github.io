@@ -11,6 +11,11 @@
     }
 }
 
+.uk-dotnav>*>:hover{
+    background-color:rgba(0,0,0,0);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
 .uk-dotnav>.uk-active>* {
     background-color: rgb(255, 255, 255);
 }
