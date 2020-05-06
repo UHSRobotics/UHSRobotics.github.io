@@ -5593,14 +5593,14 @@ button.close {
   width: 15%;
   color: #fff;
   text-align: center;
-  opacity: .5
+  opacity: .6
 }
 
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: .9
+  opacity: .95
 }
 
 .carousel-control-prev {
