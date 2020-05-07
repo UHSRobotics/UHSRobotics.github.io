@@ -222,6 +222,20 @@ body{
     color: rgb(123, 255, 248)
 }
 
+/* --- About Us Section --- */
+
+.aboutusvideo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+.aboutusvideo iframe{
+    width: 310px;
+    height: auto;
+}
+}
+
 /* --- Team Section --- */
 
 .regular-team-image {
@@ -418,10 +432,6 @@ body{
 
 .center{
     align-content: center;
-}
-.group-pic{
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .center-block{
