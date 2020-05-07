@@ -250,32 +250,60 @@ body{
 
 .sponsors{
     position: relative;
+    background-color: #fff;
+}
+
+#sponsors{
+    margin-top: 125px;
+}
+
+#sponsors .container{
+    padding-top: 100px;
+    padding-bottom: 25px;
 }
 
 .sponsors .container{
-    padding-top: 25px;
-    padding-bottom: 75px;
+    padding-top: 0;
+    padding-bottom: 25px;
 }
 
 .sponsors>section{
     position: relative;
     z-index: 100;
-    pointer-events: none; 
+    /* pointer-events: none;  */
     /* pointer-events:none allows for the mouse inputs to be passed to the particle stuffs behind the images */
 }
 
 .sponsors>section>.container>div>.row>div{
-    padding-left: 30px;
-    padding-right: 30px;
+    transition: .4s;
 }
 
+.sponsors>section>.container>div>.row>div:hover{
+    display: block;
+    transform: scale(1.05);
+    transition: .4s;
+}
 
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
+    margin-left: 10px;
+    margin-right: 10px;
     height: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
+    box-shadow: 4px 10px 20px -4px rgba(0,0,0,0.39);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.sponsors img{
+    pointer-events: none;
 }
 
 /* centers sponsors */
