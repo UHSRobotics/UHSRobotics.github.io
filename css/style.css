@@ -251,6 +251,8 @@ body{
 .sponsors{
     position: relative;
     background-color: #fff;
+    background-image: url("/images/background.png");
+    background-attachment: fixed;
 }
 
 #sponsors{
@@ -286,6 +288,7 @@ body{
 
 /* Targets the div outside of the sponsorship images */
 .sponsors>section>.container>div>.row>div>div{
+    background-color: #fff;
     margin-left: 10px;
     margin-right: 10px;
     height: 100%;
