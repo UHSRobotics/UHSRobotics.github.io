@@ -275,11 +275,19 @@ body{
 .sponsors{
     position: relative;
     background-color: #000;
-    background-image: url("/images/background.png");
     background-attachment: fixed;
     background-size: cover;
 }
 
+.sponsors.diamond{
+    background-image: url("/images/background-diamond.png");
+}
+.sponsors.platinum{
+    background-image: url("/images/background.png");
+}
+.sponsors.gold{
+    background-image: url("/images/background-gold.png");
+}
 #sponsors{
     margin-top: 125px;
 }
