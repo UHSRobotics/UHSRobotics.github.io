@@ -279,6 +279,12 @@ body{
     background-size: cover;
 }
 
+.iOS .sponsors{
+    background-attachment: scroll;
+    background-size: 200%;
+}
+  
+
 .sponsors.diamond{
     background-image: url("/images/background-diamond.png");
 }
@@ -288,6 +294,7 @@ body{
 .sponsors.gold{
     background-image: url("/images/background-gold.png");
 }
+
 #sponsors{
     margin-top: 125px;
 }

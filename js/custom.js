@@ -158,3 +158,8 @@ observer.observe();
 $('.carousel').carousel({
   interval: false
 })
+
+var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+if(iOS){
+	$("body").addClass("iOS");
+}
