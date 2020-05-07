@@ -310,13 +310,13 @@ body{
 }
 
 .sponsors>section>.container>div>.row>div{
-    transition: .4s;
+    transition: .5s ease-out;
 }
 
 .sponsors>section>.container>div>.row>div:hover{
     display: block;
     transform: scale(1.05);
-    transition: .4s;
+    transition: .5s ease-out;
 }
 
 /* Targets the div outside of the sponsorship images */
