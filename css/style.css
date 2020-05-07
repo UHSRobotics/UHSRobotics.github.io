@@ -274,7 +274,7 @@ body{
 
 .sponsors{
     position: relative;
-    background-color: #fff;
+    background-color: black;
     background-image: url("/images/background.png");
     background-attachment: fixed;
 }
