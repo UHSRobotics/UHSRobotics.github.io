@@ -162,7 +162,6 @@ $('.carousel').carousel({
 let iOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
 (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) &&
 !window.MSStream
-alert(iOS)
 if(iOS){
 	$("body").addClass("iOS");
 }
