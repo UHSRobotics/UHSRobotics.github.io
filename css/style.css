@@ -313,12 +313,12 @@ body{
     background-image: url("/images/background-gold.png");
 }
 
-#sponsors{
-    margin-top: 125px;
+.sponsors.diamond{
+    margin-top: 100px;
 }
 
-#sponsors .container{
-    padding-top: 100px;
+.sponsors.diamond .container{
+    padding-top: 75px;
     padding-bottom: 25px;
 }
 
