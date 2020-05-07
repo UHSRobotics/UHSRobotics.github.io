@@ -73,6 +73,10 @@ body{
     align-items: center;
 }
 
+.uk-slider li:focus{
+    outline: none;
+}
+
 /* --- Landing --- */
 
 .content{
