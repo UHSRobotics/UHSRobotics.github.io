@@ -143,10 +143,6 @@ $(document).ready(function () {
 //   console.log('callback - particles.js config loaded');
 // });
 
-particlesJS.load('teamparticles', 'assets/team.json', function() {
-	console.log('callback - particles.js config loaded');
-  });
-
 /*======================
 
 	06. Loading nav bar
