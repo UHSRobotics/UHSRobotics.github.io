@@ -6,8 +6,10 @@ body{
 
 /* --- Slideshow & Slider --- */
 
+
+
 @media all and (min-width: 992px) {
-    #events-slider{
+    #events-slides-mobile{
         display:none!important;
     }
 }
@@ -16,6 +18,28 @@ body{
     #events-slides{
         display:none!important;
     }
+}
+
+#events-slides-mobile .card{
+    border: 0;
+    background-color: #E9ECEF;
+}
+
+#events-slides-mobile .carousel-indicators{
+    bottom: -60px;
+}
+
+
+#events-slides-mobile .carousel-control-next, #events-slides-mobile .carousel-control-prev{
+    flex-direction: column;
+}
+
+#events-slides-mobile .carousel-control-next div, #events-slides-mobile .carousel-control-prev div{
+    flex-grow: 1;
+}
+
+#events-slides-mobile .carousel-control-next .carousel-control-next-icon, #events-slides-mobile .carousel-control-prev .carousel-control-prev-icon{
+    flex-grow: 2;
 }
 
 .carousel-control-next, .carousel-control-prev{

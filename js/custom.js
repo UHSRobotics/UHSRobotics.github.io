@@ -164,4 +164,7 @@ let iOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
 !window.MSStream
 if(iOS){
 	$("body").addClass("iOS");
+}else{
+	$("body").addClass("iOSnt");
+
 }
