@@ -190,82 +190,67 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-				<!-- End Slideshow -->
-			</div>
-			<!-- Start Slider -->
-			<div id="events-slider" class="container-fluid">
-				<div class="row" data-uk-scrollspy="cls: uk-animation-fade; delay:100">
-					<div class="col" data-uk-scrollspy="cls: uk-animation-fade; delay:100">
-						<!-- Carousel Container -->
-						<div uk-slider="center: true; autoplay: false;">
-							<!-- Carousel Items -->
-							<ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-1 uk-grid">
-								<li>
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top">
-												<img data-src="images/group/group-2020.jpg" alt="team" class="lozad">
-										</div>
-										<div class="uk-card-body">
-											<h3 class="uk-card-title">Our Team 2020</h3>
-											<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla repellat expedita quia accusantium recusandae. Rem, aspernatur dignissimos! Vero qui quaerat ipsam officiis molestiae</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top">
-											<img data-src="images/events/eggtarts.jpg" alt="eggtarts" class="lozad">
-										</div>
-										<div class="uk-card-body">
-											<h3 class="uk-card-title">Autumnsfest 2019</h3>
-											<p>We sold some eggtarts to promote STEM education and to raise awareness in STEM education. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top">
-											<img data-src="images/events/first_meeting.jpg" alt="first_meeting" class="lozad">
-										</div>
-										<div class="uk-card-body">
-											<h3 class="uk-card-title">First Meeting September 2019</h3>
-											<p>We introduced a lot of new members to the wonderful world of First Robotics Contest. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="uk-card uk-card-default">
-										<div class="uk-card-media-top">
-											<img data-src="images/events/mayfair.jpg" alt="mayfair" class="lozad">
-										</div>
-										<div class="uk-card-body">
-											<h3 class="uk-card-title">Mayfair 2019</h3>
-											<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla repellat expedita quia accusantium recusandae. Rem, aspernatur dignissimos! Vero qui quaerat ipsam officiis molestiae</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-							<!-- End Carousel Items -->
-							<!-- Carousel Navigation -->
-							<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+				<div id="events-slides-mobile" class="carousel slide" data-ride="carousel" data-uk-scrollspy="cls: uk-animation-fade; delay:100">
+					<ol class="carousel-indicators">
+						<li data-target="#events-slides-mobile" data-slide-to="0" class="active"></li>
+						<li data-target="#events-slides-mobile" data-slide-to="1"></li>
+						<li data-target="#events-slides-mobile" data-slide-to="2"></li>
+						<li data-target="#events-slides-mobile" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card w-100">
+								<img class="card-img-top lozad" data-src="images/group/group-2020.jpg" alt="team">
+								<div class="card-body">
+									<h5 class="card-title">Our Team 2020</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, libero vitae possimus odit, voluptatem tempora quia dicta, neque nam inventore voluptate sunt itaque saepe voluptatibus nisi in et quibusdam delectus.</p>
+									<a href="#" class="btn btn-primary">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card w-100">
+								<img class="card-img-top lozad" data-src="images/events/eggtarts.jpg" alt="eggtarts">
+								<div class="card-body">
+									<h5 class="card-title">Autumnsfest 2019</h5>
+									<p class="card-text">We sold some eggtarts to promote STEM education and to raise awareness in STEM education. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card w-100">
+								<img class="card-img-top lozad" data-src="images/events/first_meeting.jpg" alt="first meeting">
+								<div class="card-body">
+									<h5 class="card-title">First Meeting September 2019</h5>
+									<p class="card-text">We introduced a lot of new members to the wonderful world of First Robotics Contest. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card w-100">
+								<img class="card-img-top lozad" data-src="images/events/mayfair.jpg" alt="mayfair">
+								<div class="card-body">
+									<h5 class="card-title">Mayfair 2019</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, libero vitae possimus odit, voluptatem tempora quia dicta, neque nam inventore voluptate sunt itaque saepe voluptatibus nisi in et quibusdam delectus.</p>
+								</div>
+							</div>
 						</div>
 					</div>
+					<a class="carousel-control-prev" href="#events-slides-mobile" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+						<div class></div>
+
+					</a>
+					<a class="carousel-control-next" href="#events-slides-mobile" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+						<div class></div>
+					</a>
 				</div>
-						<!-- End Carousel Container -->
-
-				
-				<!-- End Row -->
-
-				<div class="row padding-top-15px" data-uk-scrollspy="cls: uk-animation-fade;delay:100">
-					<div class="col flexbox-aligncenter">
-						<a class="btn btn-medium btn-white border-radius-50 sm-margin-left-right-auto sm-display-table sm-margin-bottom-10px"
-						href="gallery.html">Gallery</a>
-					</div>
-				</div>
-				<!-- End Row -->
-
+				<!-- End Slideshow -->
+				<!-- Images for lazy loading purposes -->
 			</div>
-			<!-- End Slider -->
 		</div>
 		<!-- End About -->
 
