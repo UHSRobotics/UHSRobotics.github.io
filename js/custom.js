@@ -158,3 +158,10 @@ observer.observe();
 $('.carousel').carousel({
   interval: false
 })
+
+let iOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
+(navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) &&
+!window.MSStream
+if(iOS){
+	$("body").addClass("iOS");
+}
