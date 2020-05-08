@@ -257,6 +257,42 @@ body{
     height: 60vh;
 }
 
+.teambuttonlargerscreen {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  /* Need to change everything below this comment in this section!!!*/
+  @media only screen and (max-width: 1000px) {
+      .teambuttonsmallerscreen {
+      padding-top: 5%;
+      padding-left: 31%;
+      padding-right: 33%;
+      }
+      
+  }
+  
+  @media only screen and (max-width: 950px) {
+      .teambuttonsmallerscreen {
+      padding-top: 5%;
+      padding-left: 27%;
+      padding-right: 25%;
+      }
+      
+  }
+  
+  @media only screen and (max-width: 750px) {
+      .teambuttonsmallerscreen {
+      padding-top: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
+      }
+  }
+
 /* --- FIRST Section --- */
 
 .firstlogo {
@@ -379,38 +415,6 @@ body{
     padding-left: 100px;
     height: 700px;
     width:auto;
-}
-
-.teambuttonlargerscreen {
-  padding-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media only screen and (max-width: 1000px) {
-    .teambuttonsmallerscreen {
-    padding-top: 5%;
-    padding-left: 31%;
-    padding-right: 33%;
-    }
-    
-}
-
-@media only screen and (max-width: 950px) {
-    .teambuttonsmallerscreen {
-    padding-top: 5%;
-    padding-left: 27%;
-    padding-right: 25%;
-    }
-    
-}
-
-@media only screen and (max-width: 750px) {
-    .teambuttonsmallerscreen {
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    }
 }
 
 @media only screen and (max-width: 500px) {
