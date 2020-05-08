@@ -91,6 +91,10 @@ body{
     background-color: #000000;
 }
 
+.landing h1{
+    color: #fff;
+}
+
 .landing{
     color: #fff;
     background: linear-gradient(rgba(25, 53, 59, 0.6) 0%, rgba(0,0,0,0.65) 30%,rgba(11, 10, 31, 0.75) 65%,rgba(0,0,0,1) 100%);
@@ -329,6 +333,12 @@ body{
     background-size: cover;
 }
 
+.iOS .sponsors{
+    background-attachment: scroll;
+    background-size: 200%;
+}
+  
+
 .sponsors.diamond{
     background-image: url("/images/background-diamond.png");
 }
@@ -338,12 +348,13 @@ body{
 .sponsors.gold{
     background-image: url("/images/background-gold.png");
 }
-#sponsors{
-    margin-top: 125px;
+
+.sponsors.diamond{
+    margin-top: 100px;
 }
 
-#sponsors .container{
-    padding-top: 100px;
+.sponsors.diamond .container{
+    padding-top: 75px;
     padding-bottom: 25px;
 }
 
@@ -360,13 +371,13 @@ body{
 }
 
 .sponsors>section>.container>div>.row>div{
-    transition: .4s;
+    transition: .5s ease-out;
 }
 
 .sponsors>section>.container>div>.row>div:hover{
     display: block;
     transform: scale(1.05);
-    transition: .4s;
+    transition: .5s ease-out;
 }
 
 /* Targets the div outside of the sponsorship images */
