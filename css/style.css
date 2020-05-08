@@ -8,9 +8,26 @@ body{
     height: 0;
 }
 
+/* --- Gallery --- */
+
+.gallery img{
+    padding: 2px 2px 2px 2px !important;
+    width: 100%;
+    max-width: none;
+}
+
+.gallery{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.uk-lightbox-toolbar {
+    background: none;
+}
+
 /* --- Slideshow & Slider --- */
-
-
 
 @media all and (min-width: 992px) {
     #events-slides-mobile{
