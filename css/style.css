@@ -276,8 +276,8 @@ body{
     margin-right: 0;
 }
 
-.bg-dark.navbar-dark .nav-link.active{
-    color: rgb(123, 255, 248)
+.navbar .nav-link.active{
+    color: rgb(123, 255, 248)!important;
 }
 
 /* --- About Us Section --- */
