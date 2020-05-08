@@ -4,6 +4,10 @@ body{
     background-color: #00000000;
 }
 
+.load-early{
+    height: 0;
+}
+
 /* --- Slideshow & Slider --- */
 
 
