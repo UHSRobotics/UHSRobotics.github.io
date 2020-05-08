@@ -19,14 +19,19 @@
 
 
     var pathname = window.location.pathname;
-    
 
     $(".navbar-nav").children().each(function () {
         var navLink = $(this).children().attr("href");
         if ((pathname.indexOf(navLink.split("#")[0]) >= 0) || (navLink.indexOf("index.html")>=0  && pathname == "/")) {
             $(this).children().attr("href", "#"+navLink.split("#")[1]);
+            $(this).children().attr("uk-scroll", "true");
         }
     });
+
+    if ((pathname.indexOf("index.html") >= 0) || pathname == "/") {
+            $(".navbar-brand").attr("href", "#top");
+            $(".navbar-brand").attr("uk-scroll", "true");
+    }
 
     // console.log(window.location.pathname)
     $(".navbar-toggler").click(function () {
@@ -53,7 +58,7 @@
     <span class="navbar-toggler-icon"></span>
 </button>
 <a class="navbar-brand" href="index.html#top">
-    <img src="/images/logo.svg" width="250" height="100"
+    <img src="/images/logo.svg" width="200" height="60"
         class="d-inline-block align-top" alt="" /></a>
 <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav">
