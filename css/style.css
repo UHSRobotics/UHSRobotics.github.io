@@ -20,13 +20,32 @@ body{
     }
 }
 
+@media all and (max-width: 350px) {
+    #events-slides-mobile{
+        font-size: 75%;
+    }
+    #events-slides-mobile .card-text{
+        margin-bottom: 10px;
+    }
+
+    #events-slides-mobile .card-title{
+        margin-bottom: 10px;
+    }
+    
+}
+
 #events-slides-mobile .card{
     border: 0;
     background-color: #E9ECEF;
+    height: 75vh;
 }
 
 #events-slides-mobile .carousel-indicators{
     bottom: -60px;
+}
+
+#events-slides-mobile .carousel-inner{
+    transition: height ;
 }
 
 
