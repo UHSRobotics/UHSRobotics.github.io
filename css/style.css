@@ -20,6 +20,11 @@ body{
     width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
+    min-height: 100vh;
+}
+
+.page-title{
+    color: #fff;
 }
 
 
