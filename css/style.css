@@ -304,11 +304,11 @@ body{
     margin-bottom: 50px;
 }
 
-.team-images .col{
+.team-images div{
     padding: 0;
 }
 
-.team-images .col:after{
+.team-images div:after{
     content: "";
     position: relative;
     z-index: 1;
