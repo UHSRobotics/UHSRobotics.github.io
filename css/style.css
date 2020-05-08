@@ -452,6 +452,19 @@ body{
     justify-content:center;
 }
 
+@media (max-width: 576px){
+    .sponsors .col-6>div{
+        padding: 20px;
+    }
+    .sponsors .col-6{
+        padding: 0;
+    }
+    .sponsors .col-12{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
 /* --- Gallery Page --- */
 
 /* to get images to be the same size */
