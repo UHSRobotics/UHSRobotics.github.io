@@ -3,7 +3,7 @@
     var firstTime = true;
     function navAddBackground() {
         if(lastNavState==false || firstTime){
-            $("nav").addClass("bg-dark");
+            $("#nav-placeholder").addClass("bg-dark");
         }
         lastNavState = true;
         firstTime = false;
@@ -11,7 +11,7 @@
 
     function navRemoveBackground() {
         if(lastNavState==true || firstTime){
-            $("nav").removeClass("bg-dark");
+            $("#nav-placeholder").removeClass("bg-dark");
         }
         lastNavState = false;
         firstTime = false;
@@ -20,7 +20,7 @@
 
     var pathname = window.location.pathname;
 
-    $(".navbar-nav").children().each(function () {
+    $("#nav-placeholder .navbar-nav").children().each(function () {
         var navLink = $(this).children().attr("href");
         if ((pathname.indexOf(navLink.split("#")[0]) >= 0) || (navLink.indexOf("index.html")>=0  && pathname == "/")) {
             $(this).children().attr("href", "#"+navLink.split("#")[1]);
