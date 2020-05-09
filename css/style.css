@@ -577,10 +577,11 @@ body{
 /* --- Team Page --- */
 
 .teamtitle {
-    background: linear-gradient(#071036, #000);
-    height: 40vh;
+    color: #fff;
+    background: linear-gradient(rgba(22, 45, 51, 0.788) 45%,rgba(0,0,0,0.65) 90%,rgba(11, 10, 31, 0.75) 95%, rgba(0,0,0,1) 100%);
     width: 100%;
-    padding-top: 100px;
+    height: 55vh;
+    padding-top: 160px;
 }
 
 .teambox {
@@ -597,6 +598,10 @@ body{
     
 }
 
+.mechanical-team-members {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* --- Gallery Page --- */
 
 /* to get images to be the same size */
