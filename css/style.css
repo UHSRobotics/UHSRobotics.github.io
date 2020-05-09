@@ -574,6 +574,29 @@ body{
     }
 }
 
+/* --- Team Page --- */
+
+.teamtitle {
+    background: linear-gradient(#071036, #000);
+    height: 40vh;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.teambox {
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.teambox:hover {
+    display: block;
+    transform: scale(1.03);
+    transition: .6s ease-out;
+    
+}
+
 /* --- Gallery Page --- */
 
 /* to get images to be the same size */
