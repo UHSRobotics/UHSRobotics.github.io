@@ -47,7 +47,7 @@ body{
 /* --- Slideshow & Slider --- */
 
 @media all and (min-width: 992px) {
-    #events-slides-mobile{
+    #events-slides-mobile, #team-slides-mobile{
         display:none!important;
     }
 }
@@ -59,17 +59,17 @@ body{
 }
 
 @media all and (max-width: 350px) {
-    #events-slides-mobile{
+    #events-slides-mobile, #team-slides-mobile{
         font-size: 75%;
     }
-    #events-slides-mobile .card-text{
+    #team-slides-mobile .card-text, #events-slides-mobile .card-text{
         margin-bottom: 10px;
     }
 
-    #events-slides-mobile .card-title{
+    #team-slides-mobile .card-title, #events-slides-mobile .card-title{
         margin-bottom: 10px;
     }
-    
+
 }
 
 #events-slides-mobile .card{
@@ -78,24 +78,25 @@ body{
     min-height: 65vh;
 }
 
-#events-slides-mobile .carousel-indicators{
+#team-slides-mobile .carousel-indicators, #events-slides-mobile .carousel-indicators{
     bottom: -60px;
 }
 
-#events-slides-mobile .carousel-inner{
+#events-slides-mobile .carousel-inner, #events-slides-mobile .carousel-inner{
     transition: height ;
 }
 
 
-#events-slides-mobile .carousel-control-next, #events-slides-mobile .carousel-control-prev{
+#team-slides-mobile .carousel-control-next, #team-slides-mobile .carousel-control-prev, #events-slides-mobile .carousel-control-next, #events-slides-mobile .carousel-control-prev{
     flex-direction: column;
     opacity: 1;
 }
 
-#events-slides-mobile .carousel-control-next div, #events-slides-mobile .carousel-control-prev div{
+#team-slides-mobile .carousel-control-next div, #team-slides-mobile .carousel-control-prev div, #events-slides-mobile .carousel-control-next div, #events-slides-mobile .carousel-control-prev div{
     flex-grow: 1;
 }
 
+#team-slides-mobile .carousel-control-next .carousel-control-next-icon, #team-slides-mobile .carousel-control-prev .carousel-control-prev-icon, 
 #events-slides-mobile .carousel-control-next .carousel-control-next-icon, #events-slides-mobile .carousel-control-prev .carousel-control-prev-icon{
     flex-grow: 1;
 }
@@ -592,6 +593,13 @@ body{
 .team-members {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+/* CHANGE EVERYTHING BELOW THIS TO REMOVE. 1ST. Change id name and then removed white bit from bottom */
+
+#team-slides-mobile .card{
+    border: 0;
 }
 
 /* --- Gallery Page --- */
