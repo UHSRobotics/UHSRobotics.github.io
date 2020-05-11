@@ -580,13 +580,13 @@ body{
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: .6s ease-out;
     
 }
 .teambox:hover {
     display: block;
     transform: scale(1.03);
-    transition: .6s ease-out;
-    
+    transition: .6s ease-out; 
 }
 
 .team-members {
