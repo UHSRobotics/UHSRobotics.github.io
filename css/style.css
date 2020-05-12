@@ -42,6 +42,13 @@ body{
     min-height: 200vh;
 }
 
+@media all and (max-width: 992px) {
+    .gallery{
+        width: 90vw;
+    } 
+}
+
+
 .page-title{
     color: #fff;
     padding-top: 150px;
@@ -64,6 +71,7 @@ body{
     #events-slides{
         display:none!important;
     }
+    
 }
 
 @media all and (max-width: 350px) {
@@ -572,6 +580,13 @@ body{
 }
 
 /* --- Team Page --- */
+.team-grid{
+    width: 80vw;
+}
+
+.team-container{
+
+}
 
 .teamtitle {
     color: #fff;
@@ -606,7 +621,6 @@ body{
 .teambox-row>div{
     overflow: visible;
 }
-
 
 #team-slides-mobile .card{
     border: 0;
