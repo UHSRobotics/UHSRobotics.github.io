@@ -16,6 +16,8 @@ body{
     background: linear-gradient(#3f7c884b 0%,  #20237e25 60%, #20237e25 80%,rgba(0,0,0,1) 100%)
 }
 
+p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection { color:rgb(110, 238, 255); }
+
 /* --- Gallery --- */
 .gallery-nav{
     display: flex;
