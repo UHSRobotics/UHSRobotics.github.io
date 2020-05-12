@@ -8,6 +8,14 @@ body{
     height: 0;
 }
 
+.gradient-background{
+    height: 140vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#20237e4b 0%, #00000036 30%, #3f7c8825 60%, #3f7c8825 80%,rgba(0,0,0,1) 100%)
+}
+
 /* --- Gallery --- */
 .gallery-nav{
     display: flex;
