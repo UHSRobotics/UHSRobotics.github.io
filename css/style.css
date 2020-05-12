@@ -421,9 +421,6 @@ body{
     align-items: center;
   }
 
-
-
-  /* Need to change everything below this comment in this section!!!*/
   @media only screen and (max-width: 1000px) {
       .teambuttonsmallerscreen {
       padding-top: 5%;
@@ -604,7 +601,6 @@ body{
 }
 
 
-/* CHANGE EVERYTHING BELOW THIS TO REMOVE. 1ST. Change id name and then removed white bit from bottom */
 
 #team-slides-mobile .card{
     border: 0;
