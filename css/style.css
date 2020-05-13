@@ -621,23 +621,14 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     padding-top: 160px;
 }
 
-.teambackground {
-    background: linear-gradient(#20237e4b 0%, #00000036 30%, #3f7c8825 60%, #3f7c8825 80%,rgba(0,0,0,1) 100%);
-}
-
 .teambox {
     background-color: #00000000;
-    
-    border-style: dotted;
-    border-width: 0px;
-    border-color: #fff;
 
     color: #fff;
 
     border-radius: 3px;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition: .5s ease-in-out;
     padding-left: 0;
     padding-right: 0;
 }
@@ -651,10 +642,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 .teambox .lead-text{
-    /* font-size: 23px;
-    line-height: 30px; */
     font-weight: 800;
-    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5A9FD8, 0 0 40px #5A9FD8, 0 0 50px #5A9FD8, 0 0 60px #5A9FD8, 0 0 70px #5A9FD8; */
     margin-bottom: 15px;
     color: rgb(86, 255, 244);
 }
@@ -855,20 +843,6 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 
 ========================*/
 
-
-/* Generate Google Fonts 
--------------------------*/
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
-
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
-
-	
 /* Essentials
 -------------------------*/
 
@@ -2648,8 +2622,7 @@ h6{
     padding: 0px;
     letter-spacing: 0;
     font-weight: 600;
-	font-family: 'Poppins', sans-serif;
-
+	font-family: 'Raleway', sans-serif;
 }
 
 h1{
