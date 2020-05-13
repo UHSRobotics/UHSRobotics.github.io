@@ -626,23 +626,57 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 .teambox {
-    background-color: #fff;
-    border-radius: 5px;
+    background-color: #00000000;
+    
+    border-style: dotted;
+    border-width: 0px;
+    border-color: #fff;
+
+    color: #fff;
+
+    border-radius: 3px;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: .5s ease-in-out;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
 }
-.teambox:hover {
+
+.team-title{
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.teambox .lead-text{
+    /* font-size: 23px;
+    line-height: 30px; */
+    font-weight: 800;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5A9FD8, 0 0 40px #5A9FD8, 0 0 50px #5A9FD8, 0 0 60px #5A9FD8, 0 0 70px #5A9FD8; */
+    margin-bottom: 15px;
+    color: rgb(86, 255, 244);
+}
+
+.teambox .lead-text b{
+    color: #fff;
+}
+
+.teambox h2{
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+/* .teambox:hover {
     display: block;
     transform: scale(1.03);
     transition: .5s ease-in-out; 
-}
+} */
 
 .team-members {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .teambox-row>div{
