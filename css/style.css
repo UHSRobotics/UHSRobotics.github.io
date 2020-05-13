@@ -677,6 +677,33 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     border: 0;
 }
 
+/* --- Credits Page --- */
+
+.creditname{
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(86, 255, 244);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.creditrole {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.githubrepo {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
 /* Other things
 -------------------------*/
 
