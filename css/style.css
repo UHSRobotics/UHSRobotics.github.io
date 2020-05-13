@@ -102,7 +102,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 /* --- Slideshow & Slider --- */
 
 @media all and (min-width: 992px) {
-    #events-slides-mobile, #team-slides-mobile{
+    #events-slides-mobile{
         display:none!important;
     }
 }
@@ -115,14 +115,14 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 @media all and (max-width: 350px) {
-    #events-slides-mobile, #team-slides-mobile{
+    #events-slides-mobile{
         font-size: 75%;
     }
-    #team-slides-mobile .card-text, #events-slides-mobile .card-text{
+    #events-slides-mobile .card-text{
         margin-bottom: 10px;
     }
 
-    #team-slides-mobile .card-title, #events-slides-mobile .card-title{
+    #events-slides-mobile .card-title{
         margin-bottom: 10px;
     }
 
@@ -134,7 +134,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     min-height: 65vh;
 }
 
-#team-slides-mobile .carousel-indicators, #events-slides-mobile .carousel-indicators{
+#events-slides-mobile .carousel-indicators{
     bottom: -60px;
 }
 
@@ -143,26 +143,27 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 
-#team-slides-mobile .carousel-control-next, #team-slides-mobile .carousel-control-prev, #events-slides-mobile .carousel-control-next, #events-slides-mobile .carousel-control-prev{
+#events-slides-mobile .carousel-control-next, #events-slides-mobile .carousel-control-prev{
     flex-direction: column;
     opacity: 1;
 }
 
-#team-slides-mobile .carousel-control-next div, #team-slides-mobile .carousel-control-prev div, #events-slides-mobile .carousel-control-next div, #events-slides-mobile .carousel-control-prev div{
+#events-slides-mobile .carousel-control-next div, #events-slides-mobile .carousel-control-prev div{
     flex-grow: 1;
 }
 
-#team-slides-mobile .carousel-control-next .carousel-control-next-icon, #team-slides-mobile .carousel-control-prev .carousel-control-prev-icon, 
 #events-slides-mobile .carousel-control-next .carousel-control-next-icon, #events-slides-mobile .carousel-control-prev .carousel-control-prev-icon{
     flex-grow: 1;
 }
 
-#events-slides .carousel-control-next, #events-slides .carousel-control-prev{
+#events-slides .carousel-control-next, #events-slides .carousel-control-prev,
+#team-slides .carousel-control-next, #team-slides .carousel-control-prev{
     opacity: .9;
     transition-timing-function: ease-out;
 }
 
-#events-slides .carousel-control-next:hover, #events-slides .carousel-control-prev:hover{
+#events-slides .carousel-control-next:hover, #events-slides .carousel-control-prev:hover,
+#team-slides .carousel-control-next:hover, #team-slides .carousel-control-prev:hover{
     transform: scale(1.2);
 }
 
