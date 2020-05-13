@@ -372,6 +372,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     width: auto;
 }
 
+#nav-placeholder{
+    max-width: 100vw;
+}
+
 .navbar .nav-link.active{
     color: rgb(123, 255, 248)!important;
 }
@@ -379,15 +383,28 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 /* --- About Us Section --- */
 
 .aboutusvideo {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 0;
+    padding-bottom: 39.375%;
 }
 
-@media only screen and (max-width: 500px) {
 .aboutusvideo iframe{
-    width: 310px;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
+@media only screen and (max-width: 800px) {
+    .aboutusvideo {
+        width: 90%;
+        height: 0;
+        padding-bottom: 50.625%;
+    }
 }
 
 /* --- Team Section --- */
