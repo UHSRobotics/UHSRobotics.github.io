@@ -595,9 +595,9 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 
 /* --- Team Page --- */
 .team-grid{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 70vw;
+    margin-left: 17vw;
+    margin-right: 13vw;
 }
 
 .team-container{
@@ -643,8 +643,8 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 
 .team-box .lead-text{
     font-weight: 800;
-    margin-bottom: 15px;
     color: rgb(86, 255, 244);
+    margin-bottom: 0px;
 }
 
 .team-box .lead-text span.minor{
@@ -655,7 +655,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 .team-box .member-list{
     font-weight: 400;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 /* .team-box:hover {
