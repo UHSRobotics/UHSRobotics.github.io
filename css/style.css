@@ -711,6 +711,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     color: rgb(86, 255, 244);
     font-weight: 700;
     font-size: 40px;
+    line-height: 40px;
 }
 
 .creditrole {
@@ -719,14 +720,24 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     color: #fff;
     font-weight: 300;
     font-size: 40px;
+    line-height: 40px;
 }
 
 .githubrepo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.githubrepo a{
+    transition: .15s ease-out;
     color: #fff;
     font-size: 30px;
-    text-align: center;
     font-weight: 300;
-    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.githubrepo a:hover{
+    text-decoration: underline;
 }
 
 
