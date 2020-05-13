@@ -37,28 +37,54 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     max-width: none;
 }
 
+.gallery .uk-grid{
+    width: 100%;
+}
+
 .gallery{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    min-height: 200vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 100vh;
 }
 
 #infinite-recharge-Durham{
     padding-top: 100px;
 }
 
+@media all and (max-width: 1600px) {
+    .gallery{
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .gallery{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
 @media all and (max-width: 992px) {
     .gallery{
-        width: 90vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 40px;
+        margin-right: 40px;
     } 
     .gallery-nav{
         flex-direction: column;
     }
+    .gallery-nav .btn{
+        margin-right: 0;
+    }
     #infinite-recharge-Durham{
         padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .gallery{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
