@@ -408,6 +408,47 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     }
 }
 
+.circlesection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border: solid 1px #fff;
+    border-radius: 100%;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.circle h5{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+ 
+}
+
+.aboutusparallax {
+    background-image: url('/images/robotparallax.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.compdesc h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
 /* --- Team Section --- */
 
 #team>div{
