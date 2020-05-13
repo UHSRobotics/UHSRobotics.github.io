@@ -416,10 +416,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 .circle {
     width: 200px;
     height: 200px;
+    margin-top: 40px;
     border: solid 1px #fff;
     border-radius: 100%;
     color: #fff;
-    margin-top: 20px;
     text-transform: uppercase;
 }
 
