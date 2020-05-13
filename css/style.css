@@ -621,7 +621,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     padding-top: 160px;
 }
 
-.teambox {
+.team-box {
     background-color: #00000000;
 
     color: #fff;
@@ -641,22 +641,24 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin-top: 20px;
 }
 
-.teambox .lead-text{
+.team-box .lead-text{
     font-weight: 800;
     margin-bottom: 15px;
     color: rgb(86, 255, 244);
 }
 
-.teambox .lead-text b{
+.team-box .lead-text span.minor{
     color: #fff;
+    font-weight: 600;
 }
 
-.teambox h2{
+.team-box .member-list{
+    font-weight: 400;
     margin-bottom: 0;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
-/* .teambox:hover {
+/* .team-box:hover {
     display: block;
     transform: scale(1.03);
     transition: .5s ease-in-out; 
@@ -667,7 +669,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin-right: 0;
 }
 
-.teambox-row>div{
+.team-box-row>div{
     overflow: visible;
 }
 
