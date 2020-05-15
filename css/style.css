@@ -440,10 +440,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 .compdesc h6 {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     text-align: center;
     color: white;
     font-size: 25px;
