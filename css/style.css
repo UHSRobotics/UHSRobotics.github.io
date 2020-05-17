@@ -20,15 +20,15 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 
 /* --- Gallery --- */
 
-.gallery .masonry-sizer,.gallery .masonryItem {
+.gallery .masonry-sizer,.gallery .masonry-item {
     width: calc(100%/3.05)
 }
 
-.gallery .masonryItem-wide {
-    width: calc(100%/2.05)
+.gallery .masonry-item.wide {
+    width: calc(100%/3.05 * 2 + 6px)
 }
 
-.gallery .masonryItem {
+.gallery .masonry-item {
     display: block;
     margin-bottom: 3px;
 }
@@ -78,7 +78,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
         margin-left: 80px;
         margin-right: 80px;
     }
-    .gallery .masonry-sizer,.gallery .masonryItem, .gallery .masonryItem-wide{
+    .gallery .masonry-sizer,.gallery .masonry-item, .gallery .masonry-item.wide{
         width: calc(100%/2.03)
     }
 }
@@ -104,7 +104,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
         margin-left: 20px;
         margin-right: 20px;
     }
-    .gallery .masonry-sizer,.gallery .masonryItem, .gallery .masonryItem-wide{
+    .gallery .masonry-sizer,.gallery .masonry-item, .gallery .masonry-item.wide{
         width: calc(100%/1.02)
     }
 }
