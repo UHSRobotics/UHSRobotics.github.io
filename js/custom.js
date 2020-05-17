@@ -173,33 +173,3 @@ if(iOS){
 	$("body").addClass("iOSnt");
 
 }
-
-/*======================
-
-	08. Lozad + Masonry + imagesloaded
-
-========================*/	
-
-var $masonryItemContainer = $('.masonryItemContainer').masonry({
-  itemSelector: '.masonryItem',
-  percentPosition: true,
-  columnWidth: '.masonry-sizer',
-  gutter: 5
-});
-
-const observer = lozad('.lozad', {
-  load: function (el) {
-    el.src = el.getAttribute('data-src');
-    el.classList.add("loaded");
-
-    if (el.classList.contains("masonry")) {
-      $('.masonryItemContainer').imagesLoaded().progress(function () {
-				console.log("Working")
-        $masonryItemContainer.masonry();
-      });
-    }
-    // Custom implementation to load an element
-    // e.g. el.src = el.getAttribute('data-src');
-  }
-});
-observer.observe();
