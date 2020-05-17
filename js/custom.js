@@ -10,6 +10,8 @@
 		03. Scroll to top
 		04. Remove of "preload" class
 		05. Particles
+		06. Loading nav bar and footer
+		07. Detecting IOS
 */
 
 
@@ -145,19 +147,22 @@ $(document).ready(function () {
 
 /*======================
 
-	06. Loading nav bar
+	06. Loading nav bar and footer
 
 ========================*/	
 
 $("#nav-placeholder").load("./nav.html");
 $("#contact").load("./footer.html")
 
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-
 $('.carousel').carousel({
   interval: false
 })
+
+/*======================
+
+	07. Detecting IOS
+
+========================*/	
 
 let iOS = (/iPad|iPhone|iPod/.test(navigator.platform) ||
 (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) &&
@@ -168,3 +173,33 @@ if(iOS){
 	$("body").addClass("iOSnt");
 
 }
+
+/*======================
+
+	08. Lozad + Masonry + imagesloaded
+
+========================*/	
+
+var $masonryItemContainer = $('.masonryItemContainer').masonry({
+  itemSelector: '.masonryItem',
+  percentPosition: true,
+  columnWidth: '.masonry-sizer',
+  gutter: 5
+});
+
+const observer = lozad('.lozad', {
+  load: function (el) {
+    el.src = el.getAttribute('data-src');
+    el.classList.add("loaded");
+
+    if (el.classList.contains("masonry")) {
+      $('.masonryItemContainer').imagesLoaded().progress(function () {
+				console.log("Working")
+        $masonryItemContainer.masonry();
+      });
+    }
+    // Custom implementation to load an element
+    // e.g. el.src = el.getAttribute('data-src');
+  }
+});
+observer.observe();
