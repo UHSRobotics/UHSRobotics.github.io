@@ -16,6 +16,10 @@ body{
     background: linear-gradient(#3f7c884b 0%,  #20237e25 60%, #20237e25 80%,rgba(0,0,0,1) 100%)
 }
 
+.column-2{
+    column-count: 2;
+}
+
 p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection { color: inherit; }
 
 /* --- Gallery --- */
@@ -700,13 +704,47 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 /* --- Team Page --- */
+.team-grid .masonry-sizer,.team-grid .masonry-item {
+    width: calc(100%/3.05)
+}
+
 .team-grid{
     width: 70vw;
     margin-left: 17vw;
     margin-right: 13vw;
 }
 
-.team-container{
+@media all and (max-width: 1300px) {
+    .team-grid .masonry-sizer,.team-grid .masonry-item{
+        width: calc(100%/2.03)
+    }
+    .team-grid{
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .team-grid .masonry-sizer,.team-grid .masonry-item{
+        width: calc(100%/1.02)
+    }
+    .team-grid{
+        width: 100vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
+
+
+
+.team-title{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.team-box{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -733,10 +771,6 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     color: #fff;
 
     border-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .team-title{
