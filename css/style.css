@@ -19,6 +19,22 @@ body{
 p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, span::selection, div::selection { color: inherit; }
 
 /* --- Gallery --- */
+
+.gallery .masonry-sizer,.gallery .masonryItem {
+    width: calc(33%)
+}
+
+.gallery .masonryItem {
+    display: block;
+}
+
+.gallery img{
+    display: block;
+    margin: 3px;
+    width: calc(100% - 3px);
+    max-width: none;
+}
+
 .gallery-nav{
     display: flex;
     flex-direction: row;
@@ -30,25 +46,14 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin-right: 25px;
 }
 
-
-.gallery img{
-    padding: 2px 2px 2px 2px !important;
-    width: 100%;
-    max-width: none;
-}
-
-.gallery .uk-grid{
-    width: 100%;
+#infinite-recharge-Durham{
+    padding-top: 100px;
 }
 
 .gallery{
     margin-left: 200px;
     margin-right: 200px;
     min-height: 100vh;
-}
-
-#infinite-recharge-Durham{
-    padding-top: 100px;
 }
 
 @media all and (max-width: 1600px) {
