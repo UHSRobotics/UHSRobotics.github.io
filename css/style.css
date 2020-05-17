@@ -24,6 +24,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     width: calc(100%/3.05)
 }
 
+.gallery .masonryItem-wide {
+    width: calc(100%/2.05)
+}
+
 .gallery .masonryItem {
     display: block;
     margin-bottom: 3px;
@@ -74,6 +78,9 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
         margin-left: 80px;
         margin-right: 80px;
     }
+    .gallery .masonry-sizer,.gallery .masonryItem, .gallery .masonryItem-wide{
+        width: calc(100%/2.03)
+    }
 }
 
 @media all and (max-width: 992px) {
@@ -96,6 +103,9 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     .gallery{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .gallery .masonry-sizer,.gallery .masonryItem, .gallery .masonryItem-wide{
+        width: calc(100%/1.02)
     }
 }
 
