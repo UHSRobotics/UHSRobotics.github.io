@@ -21,18 +21,21 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 /* --- Gallery --- */
 
 .gallery .masonry-sizer,.gallery .masonryItem {
-    width: calc(33%)
+    width: calc(100%/3.05)
 }
 
 .gallery .masonryItem {
     display: block;
+    margin-bottom: 3px;
 }
 
 .gallery img{
     display: block;
     margin: 3px;
-    width: calc(100% - 3px);
+    width: calc(100% - 6px);
+    height: auto;
     max-width: none;
+    min-height: 20vh;
 }
 
 .gallery-nav{
