@@ -4,8 +4,8 @@
 
 ========================*/	
 
-var $masonryItemContainer = $('.masonryItemContainer').masonry({
-  itemSelector: '.masonryItem',
+var $masonryItemContainer = $('.masonry-item-container').masonry({
+  itemSelector: '.masonry-item',
   percentPosition: true,
   columnWidth: '.masonry-sizer',
   gutter: 5
@@ -16,7 +16,7 @@ const observer = lozad('.lozad', {
     el.src = el.getAttribute('data-src');
 
     if (el.classList.contains("masonry") && !el.classList.contains("loaded")) {
-      $('.masonryItemContainer').imagesLoaded().always(function () {
+      $('.masonry-item-container').imagesLoaded().always(function () {
 				console.log("Working")
         $masonryItemContainer.masonry();
       });
@@ -31,7 +31,7 @@ const observer = lozad('.lozad', {
 });
 observer.observe();
 
-$('.masonryItemContainer').imagesLoaded().always(function () {
+$('.masonry-item-container').imagesLoaded().always(function () {
   console.log("Working")
   $masonryItemContainer.masonry();
 });
