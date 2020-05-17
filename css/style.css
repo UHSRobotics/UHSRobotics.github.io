@@ -35,7 +35,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     width: calc(100% - 6px);
     height: auto;
     max-width: none;
-    min-height: 20vh;
+}
+
+.gallery img.lozad:not(.loaded){
+    min-height: calc((100vw - 100px) / 3 / 16 * 9);
 }
 
 .gallery-nav{
