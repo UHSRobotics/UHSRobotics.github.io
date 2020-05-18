@@ -8,9 +8,10 @@ const observer = lozad('.lozad', {
   load: function (el) {
     el.src = el.getAttribute('data-src');
 
+    console.log("Lozad!")
+
     if (el.classList.contains("masonry") && !el.classList.contains("loaded")) {
       $('.masonry-item-container').imagesLoaded().always(function () {
-				console.log("Working")
         $masonryItemContainer.masonry();
       });
     }
@@ -25,6 +26,5 @@ const observer = lozad('.lozad', {
 observer.observe();
 
 $('.masonry-item-container').imagesLoaded().always(function () {
-  console.log("Working")
   $masonryItemContainer.masonry();
 });
