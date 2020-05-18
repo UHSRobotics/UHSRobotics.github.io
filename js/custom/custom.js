@@ -14,6 +14,15 @@
 		07. Detecting IOS
 */
 
+/*======================
+
+	00. Loading in navbar and footer
+
+========================*/
+
+$("#nav-placeholder").load("./nav.html");
+$("#contact").load("./footer.html")
+
 
 jQuery(document).ready(function($) {
 	"use strict";
@@ -147,12 +156,10 @@ $(document).ready(function () {
 
 /*======================
 
-	06. Loading nav bar and footer
+	06. carousel
 
 ========================*/	
 
-$("#nav-placeholder").load("./nav.html");
-$("#contact").load("./footer.html")
 
 $('.carousel').carousel({
   interval: false
