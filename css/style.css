@@ -474,12 +474,12 @@ footer > .row > div:not(:first-child){
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 95vh;
 }
 
 .compdesc h6 {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
@@ -517,6 +517,29 @@ footer > .row > div:not(:first-child){
         font-size: 20px;
     }
 }
+
+.timeline {
+    position: relative;
+}
+.horizontalline {
+    border-top: 4px solid #ffffff;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+.timelinecircle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: -12px;
+}
+
 /* --- Team Section --- */
 
 #team>div{
