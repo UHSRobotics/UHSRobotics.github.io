@@ -448,19 +448,19 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     flex-wrap: wrap;
 }
 .circle {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     margin-top: 40px;
     border: solid 1px #fff;
-    border-radius: 100%;
+    border-radius: 50%;
     color: #fff;
     text-transform: uppercase;
 }
 
 .circle h5{
-    margin-top: 60px;
+    margin-top: 55px;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
  
 }
 
@@ -470,7 +470,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    height: 80vh;
 }
 
 .compdesc h6 {
