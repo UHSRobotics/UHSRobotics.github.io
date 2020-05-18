@@ -31,6 +31,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin: 10px;
 }
 
+footer > .row > div:not(:first-child){
+    padding-right: 0;
+}
+
 /* --- Gallery --- */
 
 .gallery .masonry-sizer,.gallery .masonry-item {
@@ -402,7 +406,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin-right: 0;
 }
 
-#nav-placeholder img{
+#nav-placeholder .navbar-brand>*{
     height: 60px;
     width: auto;
 }
