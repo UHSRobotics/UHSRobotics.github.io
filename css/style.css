@@ -456,7 +456,7 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 }
 
 .aboutusparallax {
-    background-image: url('/images/robotparallax.JPG');
+    background-image: url('/images/robotparallax.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
