@@ -59,7 +59,14 @@ footer > .row > div:not(:first-child){
 }
 
 .gallery img.lozad:not(.loaded){
-    min-height: calc((100vw - 100px) / 3 / 16 * 9);
+    min-height: calc((100vw - 250px) / 3 / 16 * 9);
+    opacity: 0;
+    transition: 1s;
+}
+
+.gallery img.lozad.loaded{
+    opacity: 1;
+    transition: 1s;
 }
 
 .gallery-nav{
