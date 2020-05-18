@@ -542,7 +542,10 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+}
 
+.regular-team-image:not(.loaded){
+    height: calc(100vw / 3 / 16 * 9);
 }
 
 /* parallex effect on team image */
