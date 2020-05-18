@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="css/uikit.min.css" media="print" onload="this.media='all'" />
 
 	<!-- Bootstrap Framework -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
 
 	<!-- Font Awesome -->
 	<link href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
@@ -82,7 +82,7 @@
 	<nav id="nav-placeholder" class="navbar navbar-expand-md navbar-dark fixed-top">
 	</nav>
 
-	<section data-uk-scrollspy="cls:uk-animation-fade" class="padding-bottom-150px">
+	<section class="padding-bottom-150px">
 
 		<div class="gradient-background"></div>
 
@@ -98,7 +98,7 @@
 
 		<!--Credits List Start-->
 		<div id="credit">
-			<div class="container" data-uk-scrollspy="cls:uk-animation-fade">
+			<div class="container" data-uk-scrollspy="cls:uk-animation-fade; target: > div > div;">
 
 				<div class="row">
 					<div class="creditname col-md-6 col-xs-12 col-sm-12">
@@ -173,7 +173,9 @@
 				</div>
 
 				<div class="githubrepo">
-					<a href="https://github.com/UHSRobotics/UHSRobotics.github.io">Github Repo Link</a>
+					<div>
+						<a href="https://github.com/UHSRobotics/UHSRobotics.github.io">Github Repo Link</a>
+					</div>
 				</div>
 
 			</div>
