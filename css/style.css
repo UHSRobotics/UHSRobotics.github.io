@@ -547,7 +547,7 @@ footer > .row > div:not(:first-child){
 }
 .horizontalline {
     border-top: 4px solid #ffffff;
-    margin-top: 45px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
