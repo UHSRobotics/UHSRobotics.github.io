@@ -527,6 +527,9 @@ footer > .row > div:not(:first-child){
 }
 
 @media only screen and (max-width: 460px) {
+    .aboutusparallax {
+        background-attachment: scroll;
+    }
     .circle{
         width: 70px;
         height: 70px;
