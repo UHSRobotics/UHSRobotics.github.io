@@ -13,6 +13,7 @@ const observer = lozad('.lozad', {
       if (el.classList.contains("masonry")) {
         $('.masonry-item-container').imagesLoaded().always(function () {
           $masonryItemContainer.masonry();
+          el.parentNode.classList.add("fully-loaded");
         });
       }
       el.classList.add("loaded");
