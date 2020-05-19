@@ -428,16 +428,32 @@ footer > .row > div:not(:first-child){
 
 /* --- About Us Section --- */
 
-.aboutusvideo {
+.about-section h4{
+    margin-bottom: 0;
+}
+
+.about-section p{
+    line-height: 175%;
+    font-size: 17px;
+}
+
+.about-section{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.about-us-video {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     height: 0;
-    padding-bottom: 39.375%;
+    padding-bottom: 56.25%;
 }
 
-.aboutusvideo iframe{
+.about-us-video iframe{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -446,10 +462,11 @@ footer > .row > div:not(:first-child){
 }
 
 @media only screen and (max-width: 800px) {
-    .aboutusvideo {
-        width: 90%;
-        height: 0;
-        padding-bottom: 50.625%;
+    .about-section{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 25vh;
+        padding-bottom: 25vh;
     }
 }
 
@@ -481,7 +498,7 @@ footer > .row > div:not(:first-child){
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 95vh;
+    height: 80vh;
 }
 
 .compdesc h6 {
