@@ -465,8 +465,8 @@ footer > .row > div:not(:first-child){
     .about-section{
         margin-left: 5vw;
         margin-right: 5vw;
-        padding-top: 25vh;
-        padding-bottom: 25vh;
+        padding-top: 25vw;
+        padding-bottom: 25vw;
     }
 }
 
