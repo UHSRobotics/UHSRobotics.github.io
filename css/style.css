@@ -37,6 +37,18 @@ footer > .row > div:not(:first-child){
 
 /* --- Gallery --- */
 
+.gallery .loading{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery .fully-loaded .loading{
+    display: none;
+}
+
 .gallery .masonry-sizer,.gallery .masonry-item {
     width: calc(100%/3.05)
 }
@@ -48,6 +60,7 @@ footer > .row > div:not(:first-child){
 .gallery .masonry-item {
     display: block;
     margin-bottom: 3px;
+    transition: 0s!important;
 }
 
 .gallery img{
@@ -58,13 +71,13 @@ footer > .row > div:not(:first-child){
     max-width: none;
 }
 
-.gallery img.lozad:not(.loaded){
+.gallery img.lozad{
     min-height: calc((100vw - 250px) / 3 / 16 * 9);
     opacity: 0;
     transition: 1s;
 }
 
-.gallery img.lozad.loaded{
+.gallery .fully-loaded img.lozad{
     opacity: 1;
     transition: 1s;
 }
