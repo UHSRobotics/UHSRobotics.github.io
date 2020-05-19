@@ -1,5 +1,6 @@
 const scroll_observer = lozad('.scrollspy', {
   load: function (el) {
+
     if (!el.classList.contains("seen")) {
       delay = el.getAttribute('delay');
       if(delay === null){
@@ -10,14 +11,11 @@ const scroll_observer = lozad('.scrollspy', {
           el.classList.add(el.getAttribute('data-scrollspy-class'));
         }, el.getAttribute('delay'));
       }
-    }
-    
-    el.classList.add("seen");
 
-    console.log("Lozad Scrollspy!")
-    
-    // Custom implementation to load an element
-    // e.g. el.src = el.getAttribute('data-src');
+      el.classList.add("seen");
+
+      console.log("Lozad Scrollspy!")
+    }
   }
 });
 scroll_observer.observe();
