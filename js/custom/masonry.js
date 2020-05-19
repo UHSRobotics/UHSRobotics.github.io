@@ -1,6 +1,6 @@
 var $masonryItemContainer = $('.masonry-item-container').masonry({
   itemSelector: '.masonry-item',
-  percentPosition: true,
+  percentPosition: false,
   columnWidth: '.masonry-sizer',
   gutter: 5
 });
