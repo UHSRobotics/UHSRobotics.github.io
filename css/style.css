@@ -36,6 +36,14 @@ footer>.row>div:not(:first-child) {
     padding-right: 0;
 }
 
+.section-title{
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
 /* --- First Section --- */
 
 .first-section {
@@ -781,6 +789,11 @@ footer>.row>div:not(:first-child) {
 }
 
 /* --- Sponsor Section --- */
+.sponsors-row > div{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 
 .particles-js-canvas-el {
     position: absolute;
@@ -794,6 +807,10 @@ footer>.row>div:not(:first-child) {
     background-color: #000;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.sponsors .section-title{
+    margin-bottom: 15px;
 }
 
 .iOS .sponsors {
@@ -945,13 +962,6 @@ footer>.row>div:not(:first-child) {
         padding-left: 10px;
         padding-right: 10px;
     }
-}
-
-.teamtitle {
-    color: #fff;
-    width: 100%;
-    height: 55vh;
-    padding-top: 160px;
 }
 
 .team-box {
