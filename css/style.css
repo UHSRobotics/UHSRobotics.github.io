@@ -35,18 +35,21 @@ p::selection, b::selection, h1::selection, h2::selection, h3::selection, h4::sel
 footer>.row>div:not(:first-child) {
     padding-right: 0;
 }
+
 /* --- First Section --- */
 
-.first-section{
+.first-section {
     margin-top: 8vw;
     margin-bottom: 10vw;
 }
+
 @media only screen and (max-width: 800px) {
     .first-section {
         padding-top: 20vw;
         padding-bottom: 20vw;
     }
 }
+
 /* --- Gallery --- */
 
 .gallery .loading {
@@ -168,6 +171,7 @@ footer>.row>div:not(:first-child) {
 }
 
 /* --- Slideshow & Slider --- */
+
 .events-section {
     margin-left: 25vw;
     margin-right: 25vw;
@@ -183,7 +187,6 @@ footer>.row>div:not(:first-child) {
         padding-bottom: 25vw;
     }
 }
-
 
 @media all and (min-width: 992px) {
     #events-slides-mobile {
@@ -468,15 +471,14 @@ footer>.row>div:not(:first-child) {
 /* --- About Us Section --- */
 
 #quick-facts {
-    min-height: 80vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-#quick-facts>div{
+#quick-facts>div {
     flex-grow: 1;
 }
 
@@ -517,35 +519,48 @@ footer>.row>div:not(:first-child) {
     left: 0;
 }
 
-@media only screen and (max-width: 800px) {
-    .about-section {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        padding-top: 25vw;
-        padding-bottom: 25vw;
-    }
-}
-
-.circle-section {
+.circle-row {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin: 8vh 20% 8vh 20%;
 }
 
 .circle {
-    width: 170px;
-    height: 170px;
-    margin-top: 40px;
-    border: solid 1px #fff;
+    width: 180px;
+    height: 180px;
+    border: solid 3px #fff;
     border-radius: 50%;
     color: #fff;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.circle h4, .circle h5 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.circle h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .circle h5 {
-    margin-top: 55px;
-    text-align: center;
-    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .about-us-parallax {
@@ -556,9 +571,14 @@ footer>.row>div:not(:first-child) {
     background-size: cover;
 }
 
+.iOS.about-us-parallax {
+    background-attachment: scroll;
+    background-size: 200%;
+}
+
 .comp-desc h6 {
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
@@ -566,42 +586,66 @@ footer>.row>div:not(:first-child) {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1100px) {
     .circle {
-        width: 110px;
-        height: 110px;
+        width: 150px;
+        height: 150px;
+    }
+    .circle-row {
+        margin: 5vh 10% 5vh 10%;
+    }
+    .circle h4 {
+        font-size: 35px;
+        line-height: 45px;
     }
     .circle h5 {
-        margin-top: 35px;
-        font-size: 15px;
-    }
-    .comp-desc h6 {
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 13px;
+        line-height: 15px;
     }
 }
 
-@media only screen and (max-width: 460px) {
-    .about-us-parallax {
-        background-attachment: scroll;
+@media only screen and (max-width: 767px) {
+    .circle-row {
+        align-items: center;
+        margin: 5vh 5% 5vh 5%;
     }
     .circle {
-        width: 70px;
-        height: 70px;
+        width: 130px;
+        height: 130px;
+        margin-bottom: calc(( 90vw - 280px) / 3);
+    }
+    .about-section {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 25vw;
+        padding-bottom: 25vw;
+    }
+    .circle h4 {
+        font-size: 25px;
+        line-height: 30px;
     }
     .circle h5 {
-        margin-top: 15px;
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .comp-desc h6 {
-        padding-left: 3%;
-        padding-right: 3%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .comp-desc h6 {
         font-size: 20px;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }
 
 .timeline {
     position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .horizontal-line {
