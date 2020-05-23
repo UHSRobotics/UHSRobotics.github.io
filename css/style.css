@@ -450,7 +450,7 @@ footer > .row > div:not(:first-child){
     font-size: 17px;
 }
 
-.about-section{
+.section{
     margin-left: 25vw;
     margin-right: 25vw;
     padding-top: 8vw;
@@ -475,7 +475,7 @@ footer > .row > div:not(:first-child){
 }
 
 @media only screen and (max-width: 800px) {
-    .about-section{
+    .section{
         margin-left: 5vw;
         margin-right: 5vw;
         padding-top: 25vw;
