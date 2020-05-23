@@ -509,9 +509,21 @@ footer>.row>div:not(:first-child) {
     margin-bottom: 0;
 }
 
-.about-section p {
+.about-us-description {
     line-height: 175%;
     font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.about-us-description p{
+    margin-bottom: 0;
+}
+
+.about-us-description p:first-child{
+    margin-bottom: 15px;
 }
 
 .about-section {
