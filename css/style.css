@@ -479,8 +479,8 @@ footer>.row>div:not(:first-child) {
 /* --- About Us Section --- */
 
 #quick-facts {
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -490,8 +490,8 @@ footer>.row>div:not(:first-child) {
     flex-grow: 1;
 }
 
-.about-us-background {
-    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.6) 20%, rgba(36, 20, 44, 0.6) 85%, rgba(0, 0, 0, 1) 100%);
+.facts-background {
+    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.6) 25%, rgba(36, 20, 44, 0.6) 85%, rgba(0, 0, 0, 1) 100%);
 }
 
 .about-section .separator{
@@ -594,7 +594,7 @@ footer>.row>div:not(:first-child) {
     line-height: 18px;
 }
 
-.about-us-parallax {
+.facts-parallax {
     background-image: url('/images/robotparallax.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -602,7 +602,7 @@ footer>.row>div:not(:first-child) {
     background-size: cover;
 }
 
-.iOS.about-us-parallax {
+.iOS.facts-parallax {
     background-attachment: scroll;
     background-size: 200%;
 }
