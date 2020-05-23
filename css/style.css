@@ -494,13 +494,24 @@ footer>.row>div:not(:first-child) {
     background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.6) 20%, rgba(36, 20, 44, 0.6) 85%, rgba(0, 0, 0, 1) 100%);
 }
 
+.about-section .separator{
+    width: 10%;
+    border-width: 2px;
+    border-bottom: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #c0bfbf; 
+}
+
 .about-section h4 {
     margin-bottom: 0;
 }
 
 .about-section p {
     line-height: 175%;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .about-section {
@@ -789,6 +800,15 @@ footer>.row>div:not(:first-child) {
 }
 
 /* --- Sponsor Section --- */
+.sponsors .separator{
+    width: 50px;
+    border-bottom: 2px solid;
+    border-color: #c0bfbf;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sponsors-row > div{
     margin-bottom: 30px;
     text-align: center;
