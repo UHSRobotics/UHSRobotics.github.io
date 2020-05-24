@@ -478,7 +478,7 @@ footer>.row>div:not(:first-child) {
 
 /* --- About Us Section --- */
 
-#quick-facts {
+#facts {
     padding-top: 15vh;
     padding-bottom: 15vh;
     display: flex;
@@ -486,11 +486,11 @@ footer>.row>div:not(:first-child) {
     justify-content: space-evenly;
 }
 
-#quick-facts>div {
+#facts>div {
     flex-grow: 1;
 }
 
-.facts-background {
+.facts-section {
     background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.6) 25%, rgba(36, 20, 44, 0.6) 85%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -500,8 +500,8 @@ footer>.row>div:not(:first-child) {
     border-bottom: 2px solid;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     border-color: #c0bfbf; 
 }
 
@@ -594,7 +594,7 @@ footer>.row>div:not(:first-child) {
     line-height: 18px;
 }
 
-.facts-parallax {
+.facts-background {
     background-image: url('/images/robotparallax.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -602,7 +602,7 @@ footer>.row>div:not(:first-child) {
     background-size: cover;
 }
 
-.iOS.facts-parallax {
+.iOS.facts-background {
     background-attachment: scroll;
     background-size: 200%;
 }
@@ -615,6 +615,7 @@ footer>.row>div:not(:first-child) {
     text-align: center;
     color: white;
     font-size: 25px;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -675,8 +676,11 @@ footer>.row>div:not(:first-child) {
 
 .timeline {
     position: relative;
-    margin-top: 60px;
-    margin-bottom: 40px;
+}
+
+.facts-section .timeline{
+    margin-top: 100px;
+    margin-bottom: 90px;
 }
 
 .horizontal-line {
