@@ -745,8 +745,6 @@ footer a:hover{
 }
 
 .timeline-circle {
-    display: flex;
-    justify-content: space-evenly;
     width: 25px;
     height: 25px;
     border-radius: 50%;
