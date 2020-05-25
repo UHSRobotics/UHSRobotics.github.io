@@ -36,6 +36,16 @@ footer>.row>div:not(:first-child) {
     padding-right: 0;
 }
 
+footer a{
+    transition-timing-function: ease-out;
+    transition-duration: .15s;
+}
+
+footer a:hover{
+    transition-timing-function: ease-out;
+    transition-duration: .15s;
+}
+
 .section-title{
     font-weight: 700;
     font-family: "Raleway", sans-serif;
