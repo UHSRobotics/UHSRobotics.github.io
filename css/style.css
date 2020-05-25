@@ -181,10 +181,25 @@ footer>.row>div:not(:first-child) {
 /* --- Slideshow & Slider --- */
 
 .events-section {
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     padding-top: 5vw;
     padding-bottom: 8vw;
+}
+
+.events-section .section-title{
+    margin-bottom: 30px;
+}
+
+#events-slides{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .events-section {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -218,6 +233,11 @@ footer>.row>div:not(:first-child) {
     #events-slides-mobile .card-title {
         margin-bottom: 10px;
     }
+}
+
+#events-slides .carousel-caption p{
+    font-size: 18px;
+
 }
 
 #events-slides-mobile .card {
@@ -472,6 +492,12 @@ footer>.row>div:not(:first-child) {
     max-width: 100vw;
 }
 
+/* @media only screen and (max-width:1000px){
+    #nav-placeholder .navbar-nav{
+        font-size: 14px;
+    }
+} */
+
 .navbar .nav-link.active {
     color: rgb(123, 255, 248)!important;
 }
@@ -531,6 +557,22 @@ footer>.row>div:not(:first-child) {
     margin-right: 25vw;
     padding-top: 8vw;
     padding-bottom: 8vw;
+}
+
+@media only screen and (max-width: 1200px){
+    .about-section {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .about-section {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 25vw;
+        padding-bottom: 25vw;
+    }
 }
 
 .about-us-video {
@@ -604,7 +646,7 @@ footer>.row>div:not(:first-child) {
 
 .iOS.facts-background {
     background-attachment: scroll;
-    background-size: 200%;
+    background-size: 100%;
 }
 
 .comp-desc h6 {
@@ -645,12 +687,6 @@ footer>.row>div:not(:first-child) {
         width: 130px;
         height: 130px;
         margin-bottom: calc(( 90vw - 280px) / 3);
-    }
-    .about-section {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        padding-top: 25vw;
-        padding-bottom: 25vw;
     }
     .circle h4 {
         font-size: 25px;
@@ -837,6 +873,10 @@ footer>.row>div:not(:first-child) {
 }
 
 /* --- Sponsor Section --- */
+.sponsors .section-title{
+    
+}
+
 .sponsors .separator{
     width: 50px;
     border-bottom: 2px solid;
