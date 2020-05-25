@@ -775,6 +775,21 @@ footer a:hover{
     padding: 20px;
 }
 
+.ftc-year {
+    margin-left: 17.5vw;
+}
+
+.ftc-desc {
+    margin-left: 15vw;
+}
+
+.vex-year {
+    margin-left: 33.5vw;
+}
+
+.vex-desc {
+    margin-left: 33vw;
+}
 /* --- Team Section --- */
 
 #team>div {
