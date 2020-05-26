@@ -731,6 +731,7 @@ footer a:hover{
 .timeline {
     position: relative;
     color: #fff;
+    white-space: nowrap;
 }
 
 .facts-section .timeline{
@@ -743,10 +744,12 @@ footer a:hover{
 }
 
 .horizontal-line {
-    border-top: 4px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
+    height: 0px;
 }
 
 .timeline-circle {
@@ -778,16 +781,53 @@ footer a:hover{
     top: 3em;
 }
 
+.timeline-event{
+    position: absolute;
+    top: 4px;
+}
+
+.timeline-event .timeline-year{
+    left: 50%;
+}
+
+.timeline-event .timeline-desc{
+    left: 50%;
+}
+
+.timeline-event .timeline-circle.end{
+    left: 100%;
+}
+
+.timeline-event.vex .horizontal-line{
+    border-color: #EE0030;
+    width: 18vw;
+}
+
+.timeline-event.frc .horizontal-line{
+    border-color: #DB0034;
+    width: 18vw;
+}
+
+.timeline-event.now .horizontal-line{
+    border-color: #0064AE;
+    width: 10vw;
+}
+
+
+.timeline .frc{
+    margin-left: 7vw;
+}
+
 .timeline .ftc {
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
 
 .timeline .vex {
-    margin-left: 45vw;
+    margin-left: 30vw;
 }
 
 .timeline .now{
-    margin-left: 60vw;
+    margin-left: 50vw;
 }
 
 /* --- Team Section --- */
