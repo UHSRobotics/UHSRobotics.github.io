@@ -730,11 +730,16 @@ footer a:hover{
 
 .timeline {
     position: relative;
+    color: #fff;
 }
 
 .facts-section .timeline{
     margin-top: 100px;
     margin-bottom: 90px;
+}
+
+.timeline-circle, .timeline-year, .timeline-desc{
+    transform: translate(-50%, -50%);
 }
 
 .horizontal-line {
@@ -750,46 +755,41 @@ footer a:hover{
     border-radius: 50%;
     background-color: #ffffff;
     position: absolute;
-    top: -12px;
 }
 
 .timeline-year{
     display: inline-block;
     position: absolute;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
     text-align: center;
-    color: #fff;
-    top: -68px;
+    top: -2em;
 }
 
 .timeline-desc {
     position: absolute;
-    color: #fff;
-    opacity: 10;
+    opacity: 1;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 2px;
-    margin-top: 10px;
-    padding: 20px;
+    top: 3em;
 }
 
-.ftc-year {
-    margin-left: 17.5vw;
+.timeline .ftc {
+    margin-left: 25vw;
 }
 
-.ftc-desc {
-    margin-left: 15vw;
+.timeline .vex {
+    margin-left: 45vw;
 }
 
-.vex-year {
-    margin-left: 33.5vw;
+.timeline .now{
+    margin-left: 60vw;
 }
 
-.vex-desc {
-    margin-left: 33vw;
-}
 /* --- Team Section --- */
 
 #team>div {
