@@ -741,6 +741,7 @@ footer a:hover{
 
 .timeline-circle, .timeline-year, .timeline-desc{
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .horizontal-line {
@@ -828,6 +829,93 @@ footer a:hover{
 
 .timeline .now{
     margin-left: 50vw;
+}
+
+@media only screen and (max-width:768px){
+    .horizontal-line {
+        border-top: none;
+        border-bottom: none;
+        border-left: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        width: 0px;
+        height: 90vh;
+        transform: translate(-50%, 0%);
+    }
+
+
+
+    .timeline-event .timeline-year{
+        left: 1em;
+        top: 50%;
+        text-align: left;
+        transform: translate(0%, -50%);
+    }
+    
+    .timeline-event .timeline-desc{
+        font-size: 30px;
+        font-weight: 600;
+        left: -1em;
+        top: 50%;
+        text-align: right;
+        transform: translate(-100%, -50%);
+    }
+
+    .timeline-event.start .timeline-desc{
+        visibility:hidden;
+    }
+
+    .timeline-event.start .timeline-desc:after{
+        content: "Start";
+        visibility: visible;
+    }
+
+    
+    .timeline-event .timeline-circle.end{
+        top: 100%;
+        left: 0px;
+    }
+
+    .timeline-event.vex .horizontal-line{
+        border-color: #EE0030;
+        width: 0px;
+        height: 20vh;
+    }
+    
+    .timeline-event.frc .horizontal-line{
+        border-color: #DB0034;
+        width: 0px;
+        height: 20vh;
+    }
+    
+    .timeline-event.now .horizontal-line{
+        border-color: #0064AE;
+        width: 0px;
+        height: 10vh;
+    }
+    
+    
+    .timeline .frc{
+        margin-left: 0px;
+        margin-top: 15vh;
+    }
+    
+    .timeline .ftc {
+        margin-left: 0px;
+        margin-top: 45vh;
+    }
+    
+    .timeline .vex {
+        margin-left: 0px;
+        margin-top: 45vh;
+    }
+    
+    .timeline .now{
+        margin-left: 0px;
+        margin-top: 80vh;
+    }
+    
 }
 
 /* --- Team Section --- */
