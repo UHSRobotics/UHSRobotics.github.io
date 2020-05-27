@@ -972,6 +972,36 @@ footer a:hover{
     }
 }
 
+.timeline-circle-animation{
+    animation-duration: 0.75s;
+    animation-name: timeline-circle-fade;
+}
+
+@keyframes timeline-circle-fade{
+    0%{opacity:0;transform:scale(.2)translate(-100%, -100%);}
+    100%{opacity:1;transform:scale(1)translate(-50%, -50%);}
+}
+
+.timeline-year-animation{
+    animation-duration: 0.5s;
+    animation-name: timeline-year-fade;
+}
+
+@keyframes timeline-year-fade{
+    0%{opacity:0;transform:translateY(100%)translate(-50%, -50%);}
+    100%{opacity:1;transform:translateY(0)translate(-50%, -50%);}
+}
+
+.timeline-desc-animation{
+    animation-duration: 0.5s;
+    animation-name: timeline-desc-fade;
+}
+
+@keyframes timeline-desc-fade{
+    0%{opacity:0;transform:translateY(-100%)translate(-50%, -50%);}
+    100%{opacity:1;transform:translateY(0)translate(-50%, -50%);}
+}
+
 /* --- Team Section --- */
 
 #team>div {
