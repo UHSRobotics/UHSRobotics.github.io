@@ -814,14 +814,14 @@ footer a:hover{
     left: 100%;
 }
 
-.timeline-event.vex .horizontal-line{
-    border-color: rgb(0, 145, 255);
-    width: 18vw;
-}
-
 .timeline-event.frc .horizontal-line{
     border-color: #f00;
     width: 22vw;
+}
+
+.timeline-event.vex .horizontal-line{
+    border-color: rgb(0, 145, 255);
+    width: 18vw;
 }
 
 .timeline-event.now .horizontal-line{
@@ -844,132 +844,6 @@ footer a:hover{
 
 .timeline .now{
     margin-left: 50vw;
-}
-
-@media only screen and (max-width:768px){
-    .facts-section .timeline{
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-
-    .horizontal-line {
-        border-top: none;
-        border-bottom: none;
-        border-left: 2px solid #ffffff;
-        border-right: 2px solid #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        width: 0px;
-        height: 90vh;
-        transform: translate(-50%, 0%);
-    }
-
-    .timeline-event .timeline-year.start, .timeline-event .timeline-year.end{
-        left: 1em;
-        text-align: left;
-        transform: translate(0%, -50%);
-    }
-
-    .timeline-event .timeline-year.start{
-        top: 0%;
-    }
-
-    .timeline-event .timeline-year.end{
-        top: 100%;
-    }
-    
-    .timeline-event .timeline-desc{
-        font-size: 25px;
-        font-weight: 600;
-        left: -0.75em;
-        top: 50%;
-        text-align: right;
-        transform: translate(-100%, -50%);
-        font-family: "Roboto", sans-serif;
-    }
-
-    .timeline-event.frc .timeline-desc{
-        visibility:hidden;
-    }
-
-    .timeline-event.frc .timeline-desc:after{
-        content: "Team 849";
-        visibility: visible;
-    }
-
-    .timeline-event.now .timeline-desc{
-        visibility:hidden;
-    }
-
-    .timeline-event.now .timeline-desc:after{
-        content: "Team 7721";
-        visibility: visible;
-    }
-
-    .timeline-event.vex .timeline-desc{
-        visibility:hidden;
-    }
-
-    .timeline-event.vex .timeline-desc:after{
-        content: "Team 3652A";
-        visibility: visible;
-    }
-    
-    
-    .timeline-event .timeline-circle.end{
-        top: 100%;
-        left: 0px;
-    }
-
-    .timeline-event.vex .horizontal-line{
-        border-color: #EE0030;
-        width: 0px;
-        height: 20vh;
-    }
-    
-    .timeline-event.frc .horizontal-line{
-        border-color: #DB0034;
-        width: 0px;
-        height: 40vh;
-    }
-    
-    .timeline-event.now .horizontal-line{
-        border-color: #0064AE;
-        width: 0px;
-        height: 15vh;
-    }
-    
-    
-    .timeline .frc{
-        margin-left: 0px;
-        margin-top: 0vh;
-    }
-    
-    .timeline .ftc {
-        margin-left: 0px;
-        margin-top: 50vh;
-    }
-    
-    .timeline .vex {
-        margin-left: 0px;
-        margin-top: 50vh;
-    }
-    
-    .timeline .now{
-        margin-left: 0px;
-        margin-top: 75vh;
-    }
-    
-}
-
-@media only screen and (max-width:350px){
-    .timeline-event .timeline-desc{
-        left: -0.5em;
-    }
-    .timeline-circle {
-        width: 20px;
-        height: 20px;
-    }
 }
 
 .timeline-circle-animation{
@@ -1000,6 +874,128 @@ footer a:hover{
 @keyframes timeline-desc-fade{
     0%{opacity:0;transform:translateY(-100%)translate(-50%, -50%);}
     100%{opacity:1;transform:translateY(0)translate(-50%, -50%);}
+}
+
+.timeline-event .timeline-desc.mobile{
+    visibility: hidden;
+} 
+
+@media only screen and (max-width:768px){
+    @keyframes timeline-year-fade{
+        0%{opacity:0;transform:translateX(-100%)translate(0%, -50%);}
+        100%{opacity:1;transform:translateY(0)translate(0%, -50%);}
+    }
+
+    @keyframes timeline-desc-fade{
+        0%{opacity:0;transform:translateX(100%)translate(-100%, -50%);}
+        100%{opacity:1;transform:translateY(0)translate(-100%, -50%);}
+    }
+    
+    .timeline-circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .facts-section .timeline{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .horizontal-line {
+        border-top: none;
+        border-bottom: none;
+        border-left: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        width: 0px;
+        height: 60vh;
+        transform: translate(-50%, 0%);
+    }
+
+    .timeline-event .timeline-year.start, .timeline-event .timeline-year.end{
+        left: 1em;
+        text-align: left;
+        transform: translate(0%, -50%);
+    }
+
+    .timeline-event .timeline-year.start{
+        top: 0%;
+    }
+
+    .timeline-event .timeline-year.end{
+        top: 100%;
+    }
+    
+    .timeline-event .timeline-desc{
+        font-size: 25px;
+        font-weight: 600;
+        left: -0.75em;
+        top: 50%;
+        text-align: right;
+        transform: translate(-100%, -50%);
+        font-family: "Roboto", sans-serif;
+    }
+
+    .timeline-event .timeline-desc:not(.mobile){
+        visibility:hidden;
+    }
+
+    .timeline-event .timeline-desc.mobile{
+        visibility: visible;
+    } 
+    
+    .timeline-event .timeline-circle.end{
+        top: 100%;
+        left: 0px;
+    }
+
+    .timeline-event.frc .horizontal-line{
+        border-color: #DB0034;
+        width: 0px;
+        height: 22vh;
+    }    
+    
+    .timeline-event.vex .horizontal-line{
+        border-color: #EE0030;
+        width: 0px;
+        height: 18vh;
+    }
+    
+    
+    .timeline-event.now .horizontal-line{
+        border-color: #0064AE;
+        width: 0px;
+        height: 10vh;
+    }
+    
+    
+    .timeline .frc{
+        margin-left: 0px;
+        margin-top: 0vh;
+    }
+    
+    .timeline .ftc {
+        margin-left: 0px;
+        margin-top: 28vh;
+    }
+    
+    .timeline .vex {
+        margin-left: 0px;
+        margin-top: 28vh;
+    }
+    
+    .timeline .now{
+        margin-left: 0px;
+        margin-top: 50vh;
+    }
+    
+}
+
+@media only screen and (max-width:350px){
+    .timeline-event .timeline-desc{
+        left: -0.5em;
+    }
 }
 
 /* --- Team Section --- */
