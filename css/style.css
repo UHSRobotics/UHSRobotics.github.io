@@ -875,7 +875,7 @@ footer a:hover{
     .timeline-event .timeline-desc{
         font-size: 25px;
         font-weight: 600;
-        left: -1em;
+        left: -0.75em;
         top: 50%;
         text-align: right;
         transform: translate(-100%, -50%);
@@ -899,6 +899,16 @@ footer a:hover{
         content: "Team 7721";
         visibility: visible;
     }
+
+    .timeline-event.vex .timeline-desc{
+        visibility:hidden;
+    }
+
+    .timeline-event.vex .timeline-desc:after{
+        content: "Team 3652A";
+        visibility: visible;
+    }
+    
     
     .timeline-event .timeline-circle.end{
         top: 100%;
