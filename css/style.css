@@ -745,8 +745,8 @@ footer a:hover{
 }
 
 .horizontal-line {
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border-top: 4px solid #ffffff;
+    /* border-bottom: 4px solid #ffffff; */
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
@@ -759,6 +759,7 @@ footer a:hover{
     border-radius: 50%;
     background-color: #ffffff;
     position: absolute;
+    top: 2px;
 }
 
 .timeline-year{
@@ -769,7 +770,7 @@ footer a:hover{
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    top: -2em;
+    top: -1.5em;
 }
 
 .timeline-desc {
@@ -779,16 +780,24 @@ footer a:hover{
     font-weight: 500;
     text-align: center;
     letter-spacing: 2px;
-    top: 3em;
+    top: 2em;
+}
+
+.timeline-desc .number{
+    font-family: "Roboto", sans-serif;
 }
 
 .timeline-event{
     position: absolute;
-    top: 4px;
+    top: 0px;
 }
 
-.timeline-event .timeline-year{
-    left: 50%;
+.timeline-event .timeline-year.start{
+    left: 0%;
+}
+
+.timeline-event .timeline-year.end{
+    left: 100%;
 }
 
 .timeline-event .timeline-desc{
@@ -800,31 +809,31 @@ footer a:hover{
 }
 
 .timeline-event.vex .horizontal-line{
-    border-color: #EE0030;
+    border-color: rgb(0, 145, 255);
     width: 18vw;
 }
 
 .timeline-event.frc .horizontal-line{
-    border-color: #DB0034;
-    width: 18vw;
+    border-color: #f00;
+    width: 22vw;
 }
 
 .timeline-event.now .horizontal-line{
-    border-color: #0064AE;
+    border-color: #f00;
     width: 10vw;
 }
 
 
 .timeline .frc{
-    margin-left: 7vw;
+    margin-left: 0vw;
 }
 
 .timeline .ftc {
-    margin-left: 30vw;
+    margin-left: 28vw;
 }
 
 .timeline .vex {
-    margin-left: 30vw;
+    margin-left: 28vw;
 }
 
 .timeline .now{
@@ -832,6 +841,11 @@ footer a:hover{
 }
 
 @media only screen and (max-width:768px){
+    .facts-section .timeline{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
     .horizontal-line {
         border-top: none;
         border-bottom: none;
@@ -844,33 +858,47 @@ footer a:hover{
         transform: translate(-50%, 0%);
     }
 
-
-
-    .timeline-event .timeline-year{
+    .timeline-event .timeline-year.start, .timeline-event .timeline-year.end{
         left: 1em;
-        top: 50%;
         text-align: left;
         transform: translate(0%, -50%);
     }
+
+    .timeline-event .timeline-year.start{
+        top: 0%;
+    }
+
+    .timeline-event .timeline-year.end{
+        top: 100%;
+    }
     
     .timeline-event .timeline-desc{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         left: -1em;
         top: 50%;
         text-align: right;
         transform: translate(-100%, -50%);
+        font-family: "Roboto", sans-serif;
     }
 
-    .timeline-event.start .timeline-desc{
+    .timeline-event.frc .timeline-desc{
         visibility:hidden;
     }
 
-    .timeline-event.start .timeline-desc:after{
-        content: "Start";
+    .timeline-event.frc .timeline-desc:after{
+        content: "Team 849";
         visibility: visible;
     }
 
+    .timeline-event.now .timeline-desc{
+        visibility:hidden;
+    }
+
+    .timeline-event.now .timeline-desc:after{
+        content: "Team 7721";
+        visibility: visible;
+    }
     
     .timeline-event .timeline-circle.end{
         top: 100%;
@@ -886,36 +914,46 @@ footer a:hover{
     .timeline-event.frc .horizontal-line{
         border-color: #DB0034;
         width: 0px;
-        height: 20vh;
+        height: 40vh;
     }
     
     .timeline-event.now .horizontal-line{
         border-color: #0064AE;
         width: 0px;
-        height: 10vh;
+        height: 15vh;
     }
     
     
     .timeline .frc{
         margin-left: 0px;
-        margin-top: 15vh;
+        margin-top: 0vh;
     }
     
     .timeline .ftc {
         margin-left: 0px;
-        margin-top: 45vh;
+        margin-top: 50vh;
     }
     
     .timeline .vex {
         margin-left: 0px;
-        margin-top: 45vh;
+        margin-top: 50vh;
     }
     
     .timeline .now{
         margin-left: 0px;
-        margin-top: 80vh;
+        margin-top: 75vh;
     }
     
+}
+
+@media only screen and (max-width:350px){
+    .timeline-event .timeline-desc{
+        left: -0.5em;
+    }
+    .timeline-circle {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* --- Team Section --- */
