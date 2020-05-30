@@ -684,7 +684,7 @@ footer a:hover{
     font-weight: 300;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1400px) {
     .circle {
         width: 150px;
         height: 150px;
@@ -757,6 +757,7 @@ footer a:hover{
     margin-right: auto;
     width: 60vw;
     height: 0px;
+    transition: 0.75s;
 }
 
 .timeline-circle {
@@ -821,7 +822,7 @@ footer a:hover{
 
 .timeline-event.vex .horizontal-line{
     border-color: rgb(0, 145, 255);
-    width: 18vw;
+    width: 15vw;
 }
 
 .timeline-event.now .horizontal-line{
@@ -829,6 +830,10 @@ footer a:hover{
     width: 10vw;
 }
 
+.timeline-event .horizontal-line:not(.timeline-line-animation){
+    width: 0vw;
+    transition: 0.2s ease-out;
+}
 
 .timeline .frc{
     margin-left: 0vw;
@@ -847,7 +852,7 @@ footer a:hover{
 }
 
 .timeline-circle-animation{
-    animation-duration: 0.75s;
+    animation-duration: 0.4s;
     animation-name: timeline-circle-fade;
 }
 
@@ -988,6 +993,11 @@ footer a:hover{
     .timeline .now{
         margin-left: 0px;
         margin-top: 50vh;
+    }
+
+    .timeline-event .horizontal-line:not(.timeline-line-animation){
+        height: 0px;
+        transition: 0.2s ease-out;
     }
     
 }
