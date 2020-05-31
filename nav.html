@@ -35,19 +35,19 @@
 
     // console.log(window.location.pathname)
     $(".navbar-toggler").click(function () {
-        if ($(window).scrollTop() > 200 || $(".navbar-toggler").hasClass("collapsed"))
+        if ($(window).scrollTop() > 100 || $(".navbar-toggler").hasClass("collapsed"))
             navAddBackground();
         else
             navRemoveBackground();
     });
 
-    if ($(window).scrollTop() > 200)
+    if ($(window).scrollTop() > 100)
 		navAddBackground();
 	else
 		navRemoveBackground();
 
     $(window).scroll(function () {
-    if ($(window).scrollTop() > 200 || !$(".navbar-toggler").hasClass("collapsed"))
+    if ($(window).scrollTop() > 100 || !$(".navbar-toggler").hasClass("collapsed"))
       navAddBackground();
     else
       navRemoveBackground();
@@ -58,7 +58,7 @@
     <span class="navbar-toggler-icon"></span>
 </button>
 <a class="navbar-brand" href="index.html#top">
-    <img src="/images/logo.svg" width="200" height="60"
+    <img src="/images/logo.svg" width="100" height="60"
         class="d-inline-block align-top" alt="" /></a>
 <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav">
@@ -69,7 +69,7 @@
             <a class="nav-link" href="index.html#about" offset="50">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="index.html#events" offset="50">Events</a>
+            <a class="nav-link" href="index.html#events" offset="50">News</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="index.html#first" offset="50">FRC</a>
@@ -78,7 +78,10 @@
             <a class="nav-link" href="index.html#sponsors" offset="50">Sponsors</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="index#contact" offset="50">Contact</a>
+            <a class="nav-link" href="index.html#contact" offset="50">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="events.html#top" offset="50">Events</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="team.html#top" offset="50">Team</a>

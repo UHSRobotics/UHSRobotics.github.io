@@ -22,7 +22,7 @@
 
 $("#nav-placeholder").load("./nav.html");
 $("#contact").load("./footer.html")
-
+$("#news").load("./news.html")
 
 jQuery(document).ready(function($) {
 	"use strict";
