@@ -54,6 +54,34 @@ footer a:hover{
     margin: 0;
 }
 
+/* --- Events Page --- */
+.events-section{
+    color: #fff;
+    text-align: left;
+}
+
+.event-container{
+    margin-bottom: 10px;
+}
+
+.event-title{
+    margin-bottom: 0px;
+}
+
+.events-section .separator{
+    width: 75px;
+    border-bottom: 2px solid;
+    border-color: #c0bfbf;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.event-container.right .event-image{
+    order: 1;
+}
+
 /* --- First Section --- */
 
 .first-section {
@@ -191,30 +219,40 @@ footer a:hover{
 
 /* --- Slideshow & Slider --- */
 
-.events-section {
+.news-section {
     margin-left: 20vw;
     margin-right: 20vw;
     padding-top: 5vw;
     padding-bottom: 8vw;
 }
 
-.events-section .section-title{
+.news-section.events-page{
+    padding-top: 0vw !important;
+    padding-bottom: 0vw !important;
+}
+
+.news-section .section-title{
     margin-bottom: 30px;
 }
+
+.news-section.events-page .section-title{
+    margin-bottom: -10px;
+}
+
 
 #events-slides{
     width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
-    .events-section {
+    .news-section {
         margin-left: 10vw;
         margin-right: 10vw;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .events-section {
+    .news-section {
         margin-left: 5vw;
         margin-right: 5vw;
         padding-top: 25vw;
