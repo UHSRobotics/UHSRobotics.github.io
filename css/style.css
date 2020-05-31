@@ -517,10 +517,10 @@ footer a:hover{
 } */
 
 .navbar .nav-link.active {
-    background: rgb(11,255,235);
+    /* background: rgb(11,255,235);
     background: linear-gradient(-30deg, rgb(10, 104, 255) 0%,rgb(18, 141, 255) 19%, rgb(28, 197, 253) 41%, rgb(6, 251, 231)100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     
     /* color: rgb(123, 255, 248)!important; */
     color: rgb(123, 255, 248)!important;
