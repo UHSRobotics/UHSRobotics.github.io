@@ -56,12 +56,14 @@ footer a:hover{
 
 /* --- Events Page --- */
 .right .events-fade-in.event-image, .left .events-fade-in:not(.event-image){
-    animation-duration: .4s;
+    animation-duration: .6s;
+    animation-timing-function: cubic-bezier(0.13, 0.54, 0, 1);
     animation-name: events-fade-in-right;
 }
 
 .left .events-fade-in.event-image, .right .events-fade-in:not(.event-image){
-    animation-duration: .4s;
+    animation-duration: .6s;
+    animation-timing-function: cubic-bezier(0.13, 0.54, 0, 1);
     animation-name: events-fade-in-left;
 }
 
