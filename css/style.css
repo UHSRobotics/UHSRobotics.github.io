@@ -69,10 +69,10 @@ footer a:hover{
 }
 
 .events-section .separator{
-    width: 75px;
+    width: 100px;
     border-bottom: 2px solid;
     border-color: #c0bfbf;
-    margin-top: 1em;
+    margin-top: 0.75em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: auto;
