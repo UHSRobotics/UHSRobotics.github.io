@@ -226,6 +226,10 @@ footer a:hover{
     padding-bottom: 8vw;
 }
 
+.news-section .btn{
+    font-size: 16px;
+}
+
 .news-section.events-page{
     padding-top: 0vw !important;
     padding-bottom: 0vw !important;
@@ -255,8 +259,8 @@ footer a:hover{
     .news-section {
         margin-left: 5vw;
         margin-right: 5vw;
-        padding-top: 25vw;
-        padding-bottom: 25vw;
+        padding-top: 15vw;
+        padding-bottom: 10vw;
     }
 }
 
@@ -292,7 +296,11 @@ footer a:hover{
 #events-slides-mobile .card {
     border: 0;
     background-color: #E9ECEF;
-    min-height: 65vh;
+    min-height: 60vh;
+}
+
+.events-page #events-slides-mobile .card {
+    min-height: 50vh;
 }
 
 #events-slides-mobile .carousel-indicators {
