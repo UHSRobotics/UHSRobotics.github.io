@@ -295,7 +295,7 @@ footer a:hover{
 }
 
 #events-slides img:not(.loaded){
-    min-height: 80vh;
+    min-height: calc(55vw / 3 * 2);
 }
 
 @media only screen and (max-width: 1200px) {
