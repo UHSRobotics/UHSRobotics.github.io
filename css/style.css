@@ -55,6 +55,27 @@ footer a:hover{
 }
 
 /* --- Events Page --- */
+.right .events-fade-in.event-image, .left .events-fade-in:not(.event-image){
+    animation-duration: .4s;
+    animation-name: events-fade-in-right;
+}
+
+.left .events-fade-in.event-image, .right .events-fade-in:not(.event-image){
+    animation-duration: .4s;
+    animation-name: events-fade-in-left;
+}
+
+@keyframes events-fade-in-right{
+    0%{opacity:0;transform:translate(30%, 0%);}
+    100%{opacity:1;transform:translate(0%, 0%);}
+}
+
+@keyframes events-fade-in-left{
+    0%{opacity:0;transform:translate(-30%, 0%);}
+    100%{opacity:1;transform:translate(0%, 0%);}
+}
+
+
 .event-image{
     background: scroll;
     background-size: cover;
@@ -269,6 +290,10 @@ footer a:hover{
 
 #events-slides{
     width: 100%;
+}
+
+#events-slides img:not(.loaded){
+    min-height: 80vh;
 }
 
 @media only screen and (max-width: 1200px) {
