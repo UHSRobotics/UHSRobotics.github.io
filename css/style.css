@@ -565,7 +565,11 @@ footer a:hover{
     .landing .btn-large {
         display: none;
     }
+    .landing-content>*:first-child {
+        margin-left: 0px;
+    }
     .landing-content>*:last-child {
+        margin-right: 0px;
         margin-bottom: 50px;
     }
 }
