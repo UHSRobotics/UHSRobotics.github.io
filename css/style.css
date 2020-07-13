@@ -1314,18 +1314,16 @@ footer a:hover{
 }
 
 .sponsors>section>.container>div>.row>div {
-    transition: .5s ease-out;
+    transition: .3s;
 }
 
 .sponsors>section>.container>div>.row>div:hover {
-    display: block;
-    transform: scale(1.05);
-    transition: .5s ease-out;
+    transform: scale(1.1);
 }
 
 /* Targets the div outside of the sponsorship images */
 
-.sponsors>section>.container>div>.row>div>div {
+.sponsors>section>.container>div>.row>div>* {
     background-color: #fff;
     margin-left: 10px;
     margin-right: 10px;
