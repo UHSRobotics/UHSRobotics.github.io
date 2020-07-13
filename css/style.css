@@ -3,6 +3,10 @@ body {
     background-color: #00000000;
 }
 
+iframe{
+    overflow: hidden;
+}
+
 .load-early {
     height: 0;
 }
@@ -273,7 +277,7 @@ footer a:hover{
 }
 
 .news-section .btn{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .news-section.events-page{
@@ -472,10 +476,6 @@ footer a:hover{
     background-color: #000000;
 }
 
-.landing h1 {
-    color: #fff;
-}
-
 .landing {
     color: #fff;
     background: linear-gradient(rgba(25, 53, 59, 0.6) 0%, rgba(0, 0, 0, 0.65) 30%, rgba(11, 10, 31, 0.75) 65%, rgba(0, 0, 0, 1) 100%);
@@ -495,12 +495,16 @@ footer a:hover{
     width: 100%;
 }
 
-.landing-content img {
+.landing-content>*:first-child {
+    margin-left: 50px;
+}
+
+.landing-content>*:last-child {
     max-height: 50vh;
     max-width: 40vw;
-    margin-right: 15px;
+    margin-right: 50px;
     margin-top: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     box-shadow: black;
 }
 
@@ -513,7 +517,7 @@ footer a:hover{
 }
 
 .landing h5{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 300;
     margin-bottom: 0;
     margin-top: 10px;
@@ -531,9 +535,10 @@ footer a:hover{
 }
 
 .landing .btn-large {
-    font-family: 'Raleway', sans-serif;
-    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -560,7 +565,7 @@ footer a:hover{
     .landing .btn-large {
         display: none;
     }
-    .landing-content img {
+    .landing-content>*:last-child {
         margin-bottom: 50px;
     }
 }
@@ -637,7 +642,7 @@ footer a:hover{
 }
 
 .facts-section {
-    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.7) 30%, rgba(36, 20, 44, 0.7) 80%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(25, 53, 59, 0.7) 15%, rgba(36, 20, 44, 0.7) 90%, rgba(0, 0, 0, 1) 100%);
 }
 
 .about-section .separator{
@@ -741,16 +746,16 @@ footer a:hover{
 }
 
 .circle h4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     letter-spacing: 2px;
     font-size: 40px;
     line-height: 50px;
 }
 
 .circle h5 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     letter-spacing: 3px;
     font-size: 15px;
     line-height: 18px;
@@ -777,7 +782,14 @@ footer a:hover{
     text-align: center;
     color: white;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.comp-desc h6 b:not(:first-child):not(:last-child){
+    font-weight: 500;
+    margin-left: 0.5em;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -1220,6 +1232,11 @@ footer a:hover{
 }
 
 /* --- Sponsor Section --- */
+
+.sponsors h4.section-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
 
 .sponsors .separator{
     width: 50px;
@@ -3900,7 +3917,7 @@ blockquote p {
 .btn {
     width: auto;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
     display: inline-block;
