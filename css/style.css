@@ -40,14 +40,25 @@ footer>.row>div:not(:first-child) {
     padding-right: 0;
 }
 
+footer .icons a{
+    transition-timing-function: ease-out;
+    transition-duration: .07s;
+    padding: 1em;
+}
+
+footer .icons a:hover{
+    transition-timing-function: ease-out;
+    transition-duration: .07s;
+}
+
 footer a{
     transition-timing-function: ease-out;
-    transition-duration: .15s;
+    transition-duration: .1s;
 }
 
 footer a:hover{
     transition-timing-function: ease-out;
-    transition-duration: .15s;
+    transition-duration: .1s;
 }
 
 .section-title{
@@ -58,6 +69,37 @@ footer a:hover{
     margin: 0;
 }
 
+.instagram-hover {
+    color: hsl(340, 70%, 90%) !important;
+}
+
+.youtube-hover {
+    color: hsl(0, 80%, 85%) !important;
+}
+
+.facebook-hover {
+    color: hsl(221, 50%, 80%) !important;
+}
+
+.twitter-hover {
+    color: hsl(203, 90%, 85%) !important;
+}
+
+.instagram-hover:hover {
+    color: #e1306c !important;
+}
+
+.youtube-hover:hover {
+    color: #ff0000 !important;
+}
+
+.facebook-hover:hover {
+    color: #3b5998 !important;
+}
+
+.twitter-hover:hover {
+    color: #1da1f2 !important;
+}
 /* --- Events Page --- */
 .right .events-fade-in.event-image, .left .events-fade-in:not(.event-image){
     animation-duration: .6s;
