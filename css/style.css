@@ -493,6 +493,7 @@ footer a:hover{
     align-items: center;
     text-align: left;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .landing-content>*:first-child {
@@ -3778,7 +3779,7 @@ blockquote p {
 }
 
 .btn-medium {
-    font-size: 13px;
+    font-size: 15px;
     padding: 7px 25px 7px 28px;
 }
 
