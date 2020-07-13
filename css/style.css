@@ -109,6 +109,11 @@ footer a:hover{
     margin-bottom: 50px;
 }
 
+.what-we-do-section h6{
+    margin-bottom: 23px;
+    font-family: "Poppins", sans-serif;
+}
+
 .what-we-do-section .section-title{
     margin-bottom: 0px;
 }
