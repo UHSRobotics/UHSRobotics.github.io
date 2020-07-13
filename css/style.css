@@ -100,6 +100,66 @@ footer a:hover{
 .twitter-hover:hover {
     color: #1da1f2 !important;
 }
+/* --- What we do section --- */
+
+.what-we-do-section{
+    color:#fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.what-we-do-section .section-title{
+    margin-bottom: 0px;
+}
+
+.things-list>div{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+}
+
+.what-we-do-section .icon{
+    font-size: 50px;
+    margin: .5em;
+    color: hsl(177, 100%, 90%);
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+@keyframes neonGlow{
+    0%{
+        text-shadow: 0 0 15px hsl(177, 100%, 90%, .5),
+        0 0 30px hsl(177, 100%, 80%, .5),
+        0 0 35px rgba(255, 255, 255,.5),
+        0 0 60px hsl(177, 100%, 75%, .3),
+        0 0 80px hsl(177, 100%, 75%, .3),
+        0 0 100px hsl(177, 100%, 75%, .3),
+        0 0 150px hsl(177, 100%, 75%, .3),
+        0 0 200px hsl(177, 100%, 75%, .3);
+    }
+    100%{
+        text-shadow: 0 0 2px hsl(177, 100%, 90%, .5),
+        0 0 8px hsl(177, 100%, 80%, .5),
+        0 0 10px rgba(255, 255, 255,.5),
+        0 0 20px hsl(177, 100%, 75%, .3),
+        0 0 30px hsl(177, 100%, 75%, .3),
+        0 0 40px hsl(177, 100%, 75%, .3),
+        0 0 50px hsl(177, 100%, 75%, .3),
+        0 0 100px hsl(177, 100%, 75%, .3);
+    }
+}
+
+
+@media (max-width: 768px){
+    .things-list>div{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 50px;
+    }
+}
+
+
+
 /* --- Events Page --- */
 .right .events-fade-in.event-image, .left .events-fade-in:not(.event-image){
     animation-duration: .6s;
@@ -728,7 +788,7 @@ footer a:hover{
     margin-left: 25vw;
     margin-right: 25vw;
     padding-top: 8vw;
-    padding-bottom: 8vw;
+    padding-bottom: 10vw;
 }
 
 @media only screen and (max-width: 1200px){
@@ -1164,6 +1224,10 @@ footer a:hover{
 }
 
 /* --- Team Section --- */
+#team{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 #team>div {
     position: relative;
@@ -1181,7 +1245,7 @@ footer a:hover{
     content: "";
     position: relative;
     z-index: 1;
-    box-shadow: inset 0 0 15px 20px black;
+    /* box-shadow: inset 0 0 15px 20px black; */
     display: block;
     left: 0;
     bottom: 0;
