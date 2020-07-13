@@ -622,6 +622,7 @@ footer a:hover{
     align-items: center;
     height: 100vh;
     width: 100%;
+    margin-top: 5%;
 }
 
 .landing h5{
@@ -644,7 +645,7 @@ footer a:hover{
 
 .landing .btn-large {
     font-family: 'Poppins', sans-serif;
-    margin-top: 150px;
+    margin-top: 10%;
     font-size: 25px;
     font-weight: 600;
 }
