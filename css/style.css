@@ -600,20 +600,16 @@ footer a:hover{
     align-items: center;
     text-align: left;
     width: 100%;
-    margin-bottom: 50px;
-    margin-top: 10%;
-}
-
-.landing-content>*:first-child {
-    margin-left: 50px;
+    margin-bottom: 5vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
 }
 
 .landing-content>*:last-child {
+    margin-bottom: 5vh;
     max-height: 50vh;
     max-width: 40vw;
-    margin-right: 50px;
     margin-top: 5px;
-    margin-bottom: 50px;
     box-shadow: black;
 }
 
@@ -645,7 +641,7 @@ footer a:hover{
 
 .landing .btn-large {
     font-family: 'Poppins', sans-serif;
-    margin-top: 10%;
+    margin-top: 15vh;
     font-size: 25px;
     font-weight: 600;
 }
