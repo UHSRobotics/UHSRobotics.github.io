@@ -131,6 +131,29 @@ footer a:hover{
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 
+@keyframes neonGlowMobile{
+    0%{
+        text-shadow: 0 0 2px hsl(177, 100%, 90%, .3),
+        0 0 8px hsl(177, 100%, 80%, .3),
+        0 0 10px rgba(255, 255, 255,.3),
+        0 0 15px hsl(177, 100%, 75%, .2),
+        0 0 20px hsl(177, 100%, 75%, .2),
+        0 0 25px hsl(177, 100%, 75%, .2),
+        0 0 30px hsl(177, 100%, 75%, .2),
+        0 0 60px hsl(177, 100%, 75%, .2);
+    }
+    100%{
+        text-shadow: 0 0 5px hsl(177, 100%, 90%, .3),
+        0 0 10px hsl(177, 100%, 80%, .3),
+        0 0 15px rgba(255, 255, 255,.3),
+        0 0 20px hsl(177, 100%, 75%, .2),
+        0 0 40px hsl(177, 100%, 75%, .2),
+        0 0 50px hsl(177, 100%, 75%, .2),
+        0 0 80px hsl(177, 100%, 75%, .2),
+        0 0 100px hsl(177, 100%, 75%, .2);
+    }
+}
+
 @keyframes neonGlow{
     0%{
         text-shadow: 0 0 2px hsl(177, 100%, 90%, .5),
@@ -149,7 +172,7 @@ footer a:hover{
         0 0 20px rgba(255, 255, 255,.5),
         0 0 30px hsl(177, 100%, 75%, .3),
         0 0 40px hsl(177, 100%, 75%, .3),
-        0 0 800px hsl(177, 100%, 75%, .3),
+        0 0 80px hsl(177, 100%, 75%, .3),
         0 0 100px hsl(177, 100%, 75%, .3),
         0 0 150px hsl(177, 100%, 75%, .3);
     }
@@ -161,6 +184,9 @@ footer a:hover{
         padding-left: 10px;
         padding-right: 10px;
         margin-top: 50px;
+    }
+    .what-we-do-section .icon{
+        animation: neonGlowMobile 2s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);
     }
 }
 
