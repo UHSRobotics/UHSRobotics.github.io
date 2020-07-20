@@ -646,7 +646,6 @@ footer a:hover{
     align-items: center;
     height: 100vh;
     width: 100%;
-    margin-top: 5%;
 }
 
 .landing h5{
@@ -669,7 +668,7 @@ footer a:hover{
 
 .landing .btn-large {
     font-family: 'Poppins', sans-serif;
-    margin-top: 10%;
+    margin-top: 15vh;
     font-size: 25px;
     font-weight: 600;
 }
@@ -679,7 +678,11 @@ footer a:hover{
         font-size: 60px;
     }
 }
-
+@media only screen and (max-width: 1300px) {
+    .landing-content-holder {
+        margin-top: 4%;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .landing-content {
         flex-direction: column-reverse;
