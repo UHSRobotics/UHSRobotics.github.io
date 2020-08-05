@@ -106,6 +106,10 @@ footer a:hover {
         font-size: 14px;
         line-height: 1.25;
     }
+
+    footer p.text-medium, footer a.text-medium {
+        font-size: 12px;
+    }
 }
 
 /* --- What we do section --- */
