@@ -106,6 +106,15 @@ footer a:hover {
         font-size: 14px;
         line-height: 1.25;
     }
+
+    footer p.text-medium, footer a.text-medium {
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    footer ul li {
+        line-height: 1;
+    }
 }
 
 /* --- What we do section --- */
