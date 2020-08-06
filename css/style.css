@@ -109,6 +109,11 @@ footer a:hover {
 
     footer p.text-medium, footer a.text-medium {
         font-size: 12px;
+        line-height: 1;
+    }
+
+    footer ul li {
+        line-height: 1;
     }
 }
 
