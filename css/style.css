@@ -795,6 +795,19 @@ footer a:hover {
     color: rgb(123, 255, 248)!important;
 }
 
+@media only screen and (max-width: 980px){
+    .nav-item{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+    }
+}
+
 /* --- About Us Section --- */
 
 #facts {
