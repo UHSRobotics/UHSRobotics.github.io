@@ -74,6 +74,16 @@
         "design",
         "ideas"
       ]
+    },
+    {
+      "login": "PetchMa",
+      "name": "Peter Ma",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/45887817?v=4",
+      "profile": "http://peterma.ca/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
