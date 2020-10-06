@@ -21,6 +21,18 @@
         "test",
         "ideas"
       ]
+    },
+    {
+      "login": "moonsdust",
+      "name": "Emily Su",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/52585898?v=4",
+      "profile": "https://github.com/moonsdust",
+      "contributions": [
+        "code",
+        "design",
+        "test",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7
