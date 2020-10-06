@@ -1,0 +1,24 @@
+{
+  "projectName": "UHSRobotics.github.io",
+  "projectOwner": "UHSRobotics",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Ynng",
+      "name": "Kevin Huang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44907675?v=4",
+      "profile": "https://github.com/Ynng",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
