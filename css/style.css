@@ -654,8 +654,8 @@ footer a:hover {
 }
 
 .landing-content>*:last-child {
-    margin-bottom: 5vh;
-    max-height: 50vh;
+    margin-bottom: 10vh;
+    max-height: 60vh;
     max-width: 40vw;
     margin-top: 5px;
     box-shadow: black;
