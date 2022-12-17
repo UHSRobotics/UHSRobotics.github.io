@@ -1044,7 +1044,7 @@ footer a:hover {
     /* border-bottom: 4px solid #ffffff; */
     margin-left: auto;
     margin-right: auto;
-    width: 60vw;
+    width:80vw;
     height: 0px;
     transition: 0.75s;
 }
@@ -1072,7 +1072,7 @@ footer a:hover {
 .timeline-desc {
     position: absolute;
     opacity: 1;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 2px;
@@ -1106,17 +1106,50 @@ footer a:hover {
 
 .timeline-event.frc .horizontal-line {
     border-color: #f00;
-    width: 22vw;
+    width: 20vw;
 }
 
 .timeline-event.vex .horizontal-line {
     border-color: rgb(0, 145, 255);
-    width: 15vw;
+    width: 10vw;
 }
 
-.timeline-event.now .horizontal-line {
+.timeline-event.frc7721 .horizontal-line {
     border-color: #f00;
     width: 10vw;
+}
+
+.timeline-event.blueline .horizontal-line {
+    border-color: rgb(0, 145, 255);
+    width: 10vw;
+}
+
+.timeline-event .horizontal-line:not(.timeline-line-animation) {
+    width: 0vw;
+    transition: 0.2s ease-out;
+}
+
+.timeline .frc {
+    margin-left: 0vw;
+}
+
+.timeline .ftc {
+    margin-left: 30vw;
+}
+.timeline .vex {
+    margin-left: 30vw;
+}
+.timeline .frc7721 {
+    margin-left: 50vw;
+}
+.timeline .skills {
+    margin-left: 70vw;
+}
+.timeline .blueline {
+    margin-left: 70vw;
+}
+.timeline .now {
+    margin-left: 80vw;
 }
 
 .timeline-event .horizontal-line:not(.timeline-line-animation) {
@@ -1229,7 +1262,7 @@ footer a:hover {
         margin-left: auto;
         margin-right: auto;
         width: 0px;
-        height: 60vh;
+        height: 80vh;
         transform: translate(-50%, 0%);
     }
     .timeline-event .timeline-year.start, .timeline-event .timeline-year.end {
@@ -1268,14 +1301,19 @@ footer a:hover {
         height: 22vh;
     }
     .timeline-event.vex .horizontal-line {
-        border-color: #EE0030;
+        border-color: #0064AE;
         width: 0px;
         height: 18vh;
     }
-    .timeline-event.now .horizontal-line {
-        border-color: #0064AE;
+    .timeline-event.frc7721 .horizontal-line {
+        border-color: #EE0030;
         width: 0px;
         height: 10vh;
+    }
+    .timeline-event.blueline .horizontal-line {
+        border-color: #0064AE;
+        width: 0px;
+        height: 7.5vh;
     }
     .timeline .frc {
         margin-left: 0px;
@@ -1289,9 +1327,21 @@ footer a:hover {
         margin-left: 0px;
         margin-top: 28vh;
     }
+    .timeline .frc7721 {
+        margin-left: 0px;
+        margin-top: 55vh;
+    }
+    .timeline .skills {
+        margin-left: 0px;
+        margin-top: 72.5vh;
+    }
+    .timeline .blueline {
+        margin-left: 0px;
+        margin-top: 72.5vh;
+    }
     .timeline .now {
         margin-left: 0px;
-        margin-top: 50vh;
+        margin-top: 80vh;
     }
     .timeline-event .horizontal-line:not(.timeline-line-animation) {
         height: 0px;
