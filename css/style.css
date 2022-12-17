@@ -1152,27 +1152,6 @@ footer a:hover {
     margin-left: 80vw;
 }
 
-.timeline-event .horizontal-line:not(.timeline-line-animation) {
-    width: 0vw;
-    transition: 0.2s ease-out;
-}
-
-.timeline .frc {
-    margin-left: 0vw;
-}
-
-.timeline .ftc {
-    margin-left: 28vw;
-}
-
-.timeline .vex {
-    margin-left: 28vw;
-}
-
-.timeline .now {
-    margin-left: 50vw;
-}
-
 .timeline-circle-animation {
     animation-duration: 0.4s;
     animation-name: timeline-circle-fade;
