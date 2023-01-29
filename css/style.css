@@ -1105,22 +1105,22 @@ footer a:hover {
 }
 
 .timeline-event.frc .horizontal-line {
-    border-color: #f00;
+    border-color: rgb(0, 145, 255);
     width: 20vw;
 }
 
 .timeline-event.vex .horizontal-line {
-    border-color: rgb(0, 145, 255);
-    width: 10vw;
-}
-
-.timeline-event.frc7721 .horizontal-line {
     border-color: #f00;
     width: 10vw;
 }
 
-.timeline-event.blueline .horizontal-line {
+.timeline-event.frc7721 .horizontal-line {
     border-color: rgb(0, 145, 255);
+    width: 10vw;
+}
+
+.timeline-event.blueline .horizontal-line {
+    border-color: #f00;
     width: 10vw;
 }
 
@@ -1275,22 +1275,22 @@ footer a:hover {
         left: 0px;
     }
     .timeline-event.frc .horizontal-line {
-        border-color: #DB0034;
+        border-color: #0064AE;
         width: 0px;
         height: 22vh;
     }
     .timeline-event.vex .horizontal-line {
-        border-color: #0064AE;
+        border-color: #DB0034;
         width: 0px;
         height: 18vh;
     }
     .timeline-event.frc7721 .horizontal-line {
-        border-color: #EE0030;
+        border-color: #0064AE;
         width: 0px;
         height: 10vh;
     }
     .timeline-event.blueline .horizontal-line {
-        border-color: #0064AE;
+        border-color: #EE0030;
         width: 0px;
         height: 7.5vh;
     }
