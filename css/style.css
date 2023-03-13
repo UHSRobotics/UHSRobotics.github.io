@@ -1503,23 +1503,28 @@ footer a:hover {
     background-image: url("/images/background-diamond.png");
 }
 
-.sponsors.platinum {
+/* 
+sponsors.platinum {
     background-image: url("/images/background.png");
-}
+} */
 
 .sponsors.gold {
     background-image: url("/images/background-gold.png");
 }
 
 .sponsors.silver {
-    background-image: url("/images/background.png"); /*Too lazy to make another background*/
+    background-image: url("/images/background.png"); 
 }
 
 .sponsors.diamond {
     /* margin-top: 100px; */
 }
 
-.sponsors.diamond .container {
+.sponsors.gold .container {
+    padding-top: 75px;
+}
+
+.sponsors.silver .container {
     padding-top: 75px;
     padding-bottom: 25px;
 }
