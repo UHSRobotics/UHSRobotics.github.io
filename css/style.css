@@ -1511,6 +1511,10 @@ footer a:hover {
     background-image: url("/images/background-gold.png");
 }
 
+.sponsors.silver {
+    background-image: url("/images/background.png"); /*Too lazy to make another background*/
+}
+
 .sponsors.diamond {
     /* margin-top: 100px; */
 }
