@@ -1450,6 +1450,7 @@ footer a:hover {
 @media only screen and (max-width: 767px) {
     .first-section {
         padding-top: 20vw;
+	padding-bottom: 20vw;
     }
 }
 
@@ -1475,7 +1476,7 @@ footer a:hover {
 
 .vex-section {
     margin-top: 8vw;
-    margin-bottom: 10vw;
+    margin-bottom: 13vw;
 }
 
 .vex-section .section-title {
