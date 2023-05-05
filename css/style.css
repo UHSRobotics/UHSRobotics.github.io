@@ -270,23 +270,6 @@ footer a:hover {
     }
 }
 
-/* --- First Section --- */
-
-.first-section {
-    margin-top: 8vw;
-    margin-bottom: 10vw;
-}
-
-.first-section .section-title {
-    margin-bottom: 25px;
-}
-
-@media only screen and (max-width: 767px) {
-    .first-section {
-        padding-top: 20vw;
-        padding-bottom: 20vw;
-    }
-}
 
 /* --- Gallery --- */
 
@@ -346,7 +329,7 @@ footer a:hover {
     margin-right: 25px;
 }
 
-#infinite-recharge-Durham {
+#spin-up-canadian-open {
     padding-top: 100px;
 }
 
@@ -386,14 +369,14 @@ footer a:hover {
     }
     .gallery img.lozad {
         min-height: calc((100vw - 100px) / 2 / 16 * 9);
-    }
+    }   
     .gallery-nav {
         flex-direction: column;
     }
     .gallery-nav .btn {
         margin-right: 0;
     }
-    #infinite-recharge-Durham {
+    #spin-up-canadian-open {
         padding-top: 50px;
     }
 }
@@ -1455,6 +1438,55 @@ footer a:hover {
     font-weight: 400;
 }
 
+.first-section {
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+}
+
+.first-section .section-title {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .first-section {
+        padding-top: 20vw;
+    }
+}
+
+/* --- VEX Section --- */
+
+.vex-logo {
+    width: 400px;
+    max-width: 75vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.vex-text {
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.vex-section {
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+}
+
+.vex-section .section-title {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .vex-section {
+        padding-top: 20vw;
+    }
+}   
 /* --- Sponsor Section --- */
 
 .sponsors h4.section-title {
