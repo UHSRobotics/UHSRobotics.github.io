@@ -1,5 +1,5 @@
 # [UHSRobotics.org](https://www.UHSRobotics.org)
-UHS Robotics (FRC 7721/849)'s Official Website
+UHS Robotics (FRC 7721/849, VRC 3652A/B)'s Official Website
 
 ## Contributors ✨
 Thanks goes to these wonderful people:
