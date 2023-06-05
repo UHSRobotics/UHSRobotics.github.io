@@ -711,7 +711,9 @@ footer a:hover {
         font-size: 40px;
     }
     .landing .btn-large {
-        display: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 480;
     }
     .landing-content>*:first-child {
         margin-left: 0px;
@@ -794,8 +796,8 @@ footer a:hover {
 /* --- About Us Section --- */
 
 #facts {
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding-top: 22vh;
+    padding-bottom: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1089,7 +1091,7 @@ footer a:hover {
 
 .timeline-event.frc .horizontal-line {
     border-color: rgb(0, 145, 255);
-    width: 20vw;
+    width: 17vw;
 }
 
 .timeline-event.vex .horizontal-line {
@@ -1102,9 +1104,9 @@ footer a:hover {
     width: 10vw;
 }
 
-.timeline-event.blueline .horizontal-line {
+.timeline-event.now .horizontal-line {
     border-color: #f00;
-    width: 10vw;
+    width: 13vw;
 }
 
 .timeline-event .horizontal-line:not(.timeline-line-animation) {
@@ -1117,22 +1119,21 @@ footer a:hover {
 }
 
 .timeline .ftc {
-    margin-left: 30vw;
+    margin-left: 27vw;
 }
 .timeline .vex {
-    margin-left: 30vw;
+    margin-left: 27vw;
 }
 .timeline .frc7721 {
-    margin-left: 50vw;
+    margin-left: 47vw;
 }
+/*
 .timeline .skills {
-    margin-left: 70vw;
+    margin-left: 67vw;
 }
-.timeline .blueline {
-    margin-left: 70vw;
-}
+*/
 .timeline .now {
-    margin-left: 80vw;
+    margin-left: 67vw;
 }
 
 .timeline-circle-animation {
@@ -1188,6 +1189,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width:768px) {
+    
     @keyframes timeline-year-fade {
         0% {
             opacity: 0;
@@ -1224,7 +1226,7 @@ footer a:hover {
         margin-left: auto;
         margin-right: auto;
         width: 0px;
-        height: 80vh;
+        height: 85vh;
         transform: translate(-50%, 0%);
     }
     .timeline-event .timeline-year.start, .timeline-event .timeline-year.end {
@@ -1272,10 +1274,10 @@ footer a:hover {
         width: 0px;
         height: 10vh;
     }
-    .timeline-event.blueline .horizontal-line {
+    .timeline-event.now .horizontal-line {
         border-color: #EE0030;
         width: 0px;
-        height: 7.5vh;
+        height: 12.5vh;
     }
     .timeline .frc {
         margin-left: 0px;
@@ -1293,17 +1295,15 @@ footer a:hover {
         margin-left: 0px;
         margin-top: 55vh;
     }
+    /*
     .timeline .skills {
         margin-left: 0px;
         margin-top: 72.5vh;
     }
-    .timeline .blueline {
-        margin-left: 0px;
-        margin-top: 72.5vh;
-    }
+    */
     .timeline .now {
         margin-left: 0px;
-        margin-top: 80vh;
+        margin-top: 72.5vh;
     }
     .timeline-event .horizontal-line:not(.timeline-line-animation) {
         height: 0px;
