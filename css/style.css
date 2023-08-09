@@ -4059,7 +4059,7 @@ blockquote p {
 }
 
 .btn-large {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 25px;
     padding: 15px 40px 15px 40px
 }
@@ -8565,4 +8565,19 @@ blockquote p {
 
 .full-screen {
     min-height: 980px;
+}
+
+/*Allignment*/
+
+.allign-center-h {
+    position: relative;
+    left: 50%; transform: translate(-50%, 0%);
+}
+.allign-center-v {
+    position: relative;
+    top: 50%; transform: translate(0, -50%);
+}
+.allign-center-hv {
+    position: relative;
+    left: 50%; top: 50%; transform: translate(-50%, -50%);
 }
