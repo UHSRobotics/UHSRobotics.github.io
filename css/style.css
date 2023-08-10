@@ -1612,9 +1612,8 @@ sponsors.platinum {
     pointer-events: none;
 }
 
-.sponsors .btn {
-    font-size: 25px;
-    
+.sponsors .btn-large {
+    font-size: 25px;   
 }
 
 /* centers sponsors */
