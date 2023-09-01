@@ -735,7 +735,8 @@ footer a:hover {
 }
 
 .nav-item {
-    color: #c0bfbf;
+    /*color: #c0bfbf;*/
+    color: #cae3ee;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -777,7 +778,7 @@ footer a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     /* color: rgb(123, 255, 248)!important; */
-    color: rgb(123, 255, 248)!important;
+    color: #89d8fa !important;
 }
 
 @media only screen and (max-width: 980px){
@@ -3299,6 +3300,32 @@ h6 {
     color: #232323
 }
 
+/*(new colors)*/
+
+.text-primary1 {
+    color: #89d8fa
+}
+.text-primary2 {
+    color: #5e94ab
+}
+.text-primary3 {
+    color: #00ffd8
+}
+
+.text-light1 {
+    color: #cae3ee
+}
+.text-light2 {
+    color: #d9ffff
+}
+
+.text-dark1 {
+    color: #222222
+}
+.text-dark2 {
+    color: #3b5d6b
+}
+
 /* Text Weight
 -------------------------*/
 
@@ -4077,12 +4104,51 @@ blockquote p {
 /* Button Backgrounds
 ----------------------------*/
 
+.btn-primary1 {
+    background: #89d8fa !important;
+    border-color: #89d8fa !important;
+    color: #222222 !important
+}
+.btn-primary1:hover, .btn-primary1:focus {
+    background: transparent !important;
+    color: #89d8fa !important
+}
+
+.btn-primary3 {
+    background: #00ffd8 !important;
+    border-color: #00ffd8 !important;
+    color: #222222 !important
+}
+.btn-primary3:hover, .btn-primary3:focus {
+    background: transparent !important;
+    color: #00ffd8 !important
+}
+
+.btn-light1 {
+    background: #cae3ee !important;
+    border-color: #cae3ee !important;
+    color: #222222 !important
+}
+.btn-light1:hover, .btn-light1:focus {
+    background: transparent !important;
+    color: #cae3ee !important
+}
+
+.btn-light2 {
+    background: #d9ffff !important;
+    border-color: #d9ffff !important;
+    color: #222222 !important
+}
+.btn-light2:hover, .btn-light2:focus {
+    background: transparent !important;
+    color: #d9ffff !important
+}
+
 .btn-white {
     background: #fff !important;
     border-color: #fff !important;
     color: #232323 !important
 }
-
 .btn-white:hover, .btn-white:focus {
     background: transparent !important;
     color: #fff !important
@@ -4093,18 +4159,16 @@ blockquote p {
     border-color: #000000!important;
     color: #fff
 }
-
 .btn-black:hover, .btn-black:focus {
     background: transparent !important;
     color: #000 !important;
 }
 
-.btn-gray-light {
+.btn-gray-light { 
     background: #c0bfbf;
     border-color: #c0bfbf !important;
     color: #232323
 }
-
 .btn-gray-light:hover, .btn-gray-light:focus {
     background: transparent !important;
     border-color: #c0bfbf !important;
@@ -4116,7 +4180,6 @@ blockquote p {
     border-color: #444444 !important;
     color: #fff !important;
 }
-
 .btn-gray-dark:hover, .btn-gray-dark:focus {
     background: transparent !important;
     color: #444444 !important;
@@ -4127,7 +4190,6 @@ blockquote p {
     border-color: #232323 !important;
     color: #fff
 }
-
 .btn-gray-extra-dark:hover, .btn-gray-extra-dark:focus {
     background: transparent!important;
     color: #232323!important;
@@ -4138,7 +4200,6 @@ blockquote p {
     border-color: #ffffff !important;
     color: #ffffff !important;
 }
-
 .btn-transparent-white:hover, .btn-transparent-white:focus {
     background: #ffffff !important;
     border-color: #ffffff !important;
@@ -4150,7 +4211,6 @@ blockquote p {
     border-color: #000000 !important;
     color: #000000
 }
-
 .btn-transparent-black:hover, .btn-transparent-black:focus {
     background: #000000 !important;
     border-color: #000000 !important;
@@ -4162,7 +4222,6 @@ blockquote p {
     border-color: #c0bfbf !important;
     color: #c0bfbf
 }
-
 .btn-transparent-gray-light:hover, .btn-transparent-gray-light:focus {
     background: #c0bfbf !important;
     border-color: #c0bfbf !important;
@@ -4174,7 +4233,6 @@ blockquote p {
     border-color: #444444 !important;
     color: #444444
 }
-
 .btn-transparent-gray-dark:hover, .btn-transparent-gray-dark:focus {
     background: #444444 !important;
     border-color: #444444 !important;
@@ -4186,7 +4244,6 @@ blockquote p {
     border-color: #232323 !important;
     color: #232323
 }
-
 .btn-transparent-gray-extra-dark:hover, .btn-transparent-gray-extra-dark:focus {
     background: #232323 !important;
     border-color: #232323 !important;
