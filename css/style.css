@@ -731,6 +731,20 @@ footer a:hover {
         margin-right: 0px;
         margin-bottom: 50px;
     }
+    .landing h5 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    #landing-logo {
+        width: 200px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .landing .btn-large {
+        margin-top: 10px;
+    }
 }
 
 /* --- Navbar --- */
