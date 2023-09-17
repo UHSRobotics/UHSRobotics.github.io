@@ -3905,6 +3905,30 @@ blockquote p {
     background-color: #e31919
 }
 
+.bg-primary1 {
+    background-color: #89d8fa !important
+}
+.bg-primary2 {
+    background-color: #5e94ab !important
+}
+.bg-primary3 {
+    background-color: #00ffd8 !important
+}
+
+.bg-light1 {
+    background-color: #cae3ee !important
+}
+.bg-light2 {
+    background-color: #d9ffff !important
+}
+
+.bg-dark1 {
+    background-color: #222222 !important
+}
+.bg-dark2 {
+    background-color: #3b5d6b !important
+}
+
 /* Overlays
 -------------------------*/
 
