@@ -15,6 +15,8 @@ Thanks goes to these wonderful people:
     <td align="center"><a href="https://github.com/derrick-yyang"><img src="https://avatars1.githubusercontent.com/u/57463206?v=4?s=100" width="100px;" alt=""/><br /><sub><b>derrick-yyang</b></sub></a><br /><a href="#design-derrick-yyang" title="Design">🎨</a></td>
     <td align="center"><a href="https://holostudio.moe/"><img src="https://avatars2.githubusercontent.com/u/43357430?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sunny</b></sub></a><br /><a href="#design-3Nya3" title="Design">🎨</a> <a href="#ideas-3Nya3" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://peterma.ca/"><img src="https://avatars2.githubusercontent.com/u/45887817?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter Ma</b></sub></a><br /><a href="#design-PetchMa" title="Design">🎨</a> <a href="https://github.com/UHSRobotics/UHSRobotics.github.io/commits?author=PetchMa" title="Code">💻</a></td>
+    <td align="center"><a href="https://holostudio.moe/"><img src="https://avatars2.githubusercontent.com/u/43357430?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sunny</b></sub></a><br /><a href="#design-3Nya3" title="Design">🎨</a> <a href="#ideas-3Nya3" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://peterma.ca/"><img src="https://avatars2.githubusercontent.com/u/45887817?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter Ma</b></sub></a><br /><a href="#design-PetchMa" title="Design">🎨</a> <a href="https://github.com/UHSRobotics/UHSRobotics.github.io/commits?author=PetchMa" title="Code">💻</a></td>
   </tr>
 </table>
 
