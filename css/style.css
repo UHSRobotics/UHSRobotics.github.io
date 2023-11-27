@@ -1531,6 +1531,8 @@ footer a:hover {
 .sponsors-row>div {
     margin-bottom: 30px;
     text-align: center;
+    font-size: 20px;
+    line-height: normal;
 }
 
 .particles-js-canvas-el {
@@ -1562,7 +1564,7 @@ footer a:hover {
 
 /* 
 sponsors.platinum {
-    background-image: url("/images/background.png");
+    background-image: url("/images/background-silver.png");
 } */
 
 .sponsors.gold {
@@ -1570,15 +1572,17 @@ sponsors.platinum {
 }
 
 .sponsors.silver {
-    background-image: url("/images/background.png"); 
+    background-image: url("/images/background-silver.png"); 
 }
 
 .sponsors.diamond {
-    /* margin-top: 100px; */
+    padding-top: 75px;
+    padding-bottom: 25px;
 }
 
 .sponsors.gold .container {
     padding-top: 75px;
+    padding-bottom: 25px;
 }
 
 .sponsors.silver .container {
