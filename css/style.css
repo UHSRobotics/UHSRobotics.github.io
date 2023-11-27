@@ -1575,7 +1575,7 @@ sponsors.platinum {
     background-image: url("/images/background-silver.png"); 
 }
 
-.sponsors.diamond {
+.sponsors.diamond .container {
     padding-top: 75px;
     padding-bottom: 25px;
 }
