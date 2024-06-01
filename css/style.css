@@ -681,7 +681,7 @@ footer a:hover {
 
 .landing .btn-large {
     font-family: 'Poppins', sans-serif;
-    margin-top: 15vh;
+    margin-top: 5vh;
     font-size: 25px;
     font-weight: 600;
 }
@@ -702,6 +702,7 @@ footer a:hover {
     .landing-content-holder {
         margin-top: 4%;
     }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -714,7 +715,7 @@ footer a:hover {
     }
     .landing {
         background: linear-gradient(rgba(25, 53, 59, 0.75) 0%, rgba(0, 0, 0, 0.75) 30%, rgba(11, 10, 31, 0.8) 65%, rgba(0, 0, 0, 1) 100%);
-        height: 95vh;
+        height: 120vh;
     }
     .landing h1 {
         font-size: 40px;
@@ -741,9 +742,43 @@ footer a:hover {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .landing .btn-large {
         margin-top: 10px;
+    }
+    .landing-content {
+        padding-top: 15vh;
+    }
+    .landing {
+        height: 130vh;
+    }
+    .landing h1 {
+        font-size: 30px;
+        line-height: 130%;
+    }
+    .landing h5 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .landing-content {
+        padding-top: 50vh;
+    }
+    .landing {
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .landing-content {
+        padding-top: 50vh;
+    }
+    .landing {
+        height: relative;
+    }
+    .lending h1 {
+        font-size: 10px;
     }
 }
 
@@ -1770,6 +1805,13 @@ sponsors.platinum {
 }
 
 /* --- Credits Page --- */
+.credits-gradient-background {
+    height: 115em;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#3f7c884b 0%, #20237e25 60%, #20237e25 80%, #222222 100%)
+}
 
 #credit h5, #credit h4 {
     margin-bottom: 0;
@@ -7230,6 +7272,10 @@ blockquote p {
 
 .padding-bottom-200px {
     padding-bottom: 200px;
+}
+
+.padding-bottom-220px {
+    padding-bottom: 220px;
 }
 
 .padding-bottom-250px {
